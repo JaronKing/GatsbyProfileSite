@@ -6,11 +6,13 @@ import Layout from "../components/Layout"
 const Index = ({ data }) => {
   const {
     site: {
-      siteMetadata: { name, role },
+        headers,
+        siteMetadata: { name, role },
     },
   } = data;
   return (
     <>
+    {console.log(role)}
         <Layout>
             <h1>This is the index page.</h1>
             <p>
@@ -23,14 +25,61 @@ const Index = ({ data }) => {
         <p>Technologies</p>
           <ul>
             <li>
-              <p>PHP</p>
+                PHP
+                <StaticImage 
+                    src="../images/php.png"
+                    alt="Php Logo"
+                    placeholder="blurred"
+                    layout="fixed"
+                    width={50}
+                />
               <p>Frameworks</p>
               <ul>
-                <li>Symfony</li>
-                <li>Laravel</li>
-                <li>Codeignitor</li>
-                <li>CakePHP</li>
-                <li>WordPress</li>
+                <li>Symfony
+                    <StaticImage 
+                        src="../images/symfony.png"
+                        alt="Php Logo"
+                        placeholder="blurred"
+                        layout="fixed"
+                        width={50}
+                    />
+                </li>
+                <li>Laravel
+                    <StaticImage 
+                        src="../images/laravel.png"
+                        alt="Php Logo"
+                        placeholder="blurred"
+                        layout="fixed"
+                        width={50}
+                    />
+                </li>
+                <li>Codeignitor
+                    <StaticImage 
+                        src="../images/codeignitor.png"
+                        alt="Php Logo"
+                        placeholder="blurred"
+                        layout="fixed"
+                        width={50}
+                    />
+                </li>
+                <li>CakePHP
+                    <StaticImage 
+                        src="../images/cakephp.png"
+                        alt="Php Logo"
+                        placeholder="blurred"
+                        layout="fixed"
+                        width={50}
+                    />
+                </li>
+                <li>WordPress
+                    <StaticImage 
+                        src="../images/wordpress.png"
+                        alt="Php Logo"
+                        placeholder="blurred"
+                        layout="fixed"
+                        width={50}
+                    />
+                </li>
               </ul>
             </li>
             <li>
@@ -88,10 +137,10 @@ const Index = ({ data }) => {
 export const query = graphql`
   {
     site {
-      siteMetadata {
-        name
-        role
-      }
+        siteMetadata {
+            name
+            role
+        }
     }
   }
   `
