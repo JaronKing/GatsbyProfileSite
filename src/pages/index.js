@@ -10,19 +10,44 @@ const Index = ({ data }) => {
         },
     } = data;
 
+    const dataSet = [
+        {
+            "firstname":"John",
+        },
+        {
+            "firstname":"John",
+        },
+    ];
+
+    // const dataSet = {};
+
+
+
     return (
         <>
         {console.log(role)}
         <Layout>
             <div className="w-full max-w-xl px-10 py-8 mx-auto bg-white rounded-lg shadow-xl">
-                <div className='max-w-md mx-auto space-y-6 '>
+                <div className='max-w-xl mx-auto space-y-6 '>
                     <h1 className="text-center">
                        Jaron King
                     </h1>
+                        {
+                            dataSet.map((item) => {
+                              return (
+                                <p>
+                                  {item.firstname}
+                                </p>
+                              )
+                            })
+                        }
 
-                    <h2 className="flex flex-row flex-nowrap items-center my-8">
+                    <h2 className="flex flex-row flex-nowrap items-center my-8" >
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
-                        <span className="flex-none block mx-4 px-4 py-2.5 text-m leading-none font-medium uppercase bg-red-700 text-white">
+                        <span className="flex-none block mx-4 px-4 py-2.5 text-m leading-none font-medium uppercase bg-red-700 text-white"data-sal="zoom-in"
+                            data-sal-delay="300"
+                            data-sal-duration="2000"
+                            data-sal-easing="ease-out-back">
                             Resume
                         </span>
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
@@ -38,32 +63,32 @@ Luxer One, Sacramento, CA<br/>
 Improved and maintained CakePhp 2 application and integration with dozens of 3rd party applications.<br/>
 CakePhp 2, JavaScript, MySQL, VueJS, Mustache, AWS and Google buckets/ remote storage<br/>
 <br/>
-Feb. ’16 to May `17
-Dynamic Vision, Temecula, CA
-Migrated Laravel 2 application to Laravel 4 while also implementing Angular.  Also helped with migrating terabytes of data from MicrosoftSQL to MySQL.
-Laravel 4, NodeJS, Firebase, Angular 2, Bootstrap 3, Git, JIRA, LAMP, MySQL, NOSQL
- 
-Mar. ’15 to Feb. ‘16
-Freelance, San Diego, CA
-Projects ranged from CMS blogs to Craigslist like applications, ItsTheGuac, StatEyeConsult, BestOfWebflix
-Symfony 2, Laravel 4, Bootstrap 3, Javascript, Git, LEMP, LAMP.
-  
-Mar. ’14 to Mar. ‘15
-AP Media, San Diego, CA  
-Facebook advertising platform that would grow to support emails and websites.
-Symfony2, Codeignitor, Git, HTML5, JQuery, Twig, Bootstrap 3, eCommerce, LEMP and LAMP.
-
-Digital Marketing Analyst     
-Dec. ’12 to Mar. ‘14
-Adconion Direct, San Diego, CA
-Git, Powershell, Email Marketing, Port25 MTA and Creative generation
-
-Information Technology Assistant           
-Sept. ’10 to June ‘12
-Regents of the University of California, Davis, CA
-Created and developed Adobe Captivate courses used for University staff.  Developed and deployed websites based on WordPress CMS, and other PHP web applications. 
-Wordpress, PHP, Bootstrap, HTML5, Git, LAMP 
-
+Feb. ’16 to May `17<br/>
+Dynamic Vision, Temecula, CA<br/>
+Migrated Laravel 2 application to Laravel 4 while also implementing Angular.  Also helped with migrating terabytes of data from MicrosoftSQL to MySQL.<br/>
+Laravel 4, NodeJS, Firebase, Angular 2, Bootstrap 3, Git, JIRA, LAMP, MySQL, NOSQL<br/>
+ <br/>
+Mar. ’15 to Feb. ‘16<br/>
+Freelance, San Diego, CA<br/>
+Projects ranged from CMS blogs to Craigslist like applications, ItsTheGuac, StatEyeConsult, BestOfWebflix<br/>
+Symfony 2, Laravel 4, Bootstrap 3, Javascript, Git, LEMP, LAMP.<br/>
+  <br/>
+Mar. ’14 to Mar. ‘15<br/>
+AP Media, San Diego, CA  <br/>
+Facebook advertising platform that would grow to support emails and websites.<br/>
+Symfony2, Codeignitor, Git, HTML5, JQuery, Twig, Bootstrap 3, eCommerce, LEMP and LAMP.<br/>
+<br/>
+Digital Marketing Analyst     <br/>
+Dec. ’12 to Mar. ‘14<br/>
+Adconion Direct, San Diego, CA<br/>
+Git, Powershell, Email Marketing, Port25 MTA and Creative generation<br/>
+<br/>
+Information Technology Assistant     <br/>      
+Sept. ’10 to June ‘12<br/>
+Regents of the University of California, Davis, CA<br/>
+Created and developed Adobe Captivate courses used for University staff.  Developed and deployed websites based on WordPress CMS, and other PHP web applications. <br/>
+Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
+<br/>
 
                      <h2 className="flex flex-row flex-nowrap items-center my-8">
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
@@ -162,7 +187,7 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP
                             </div>
                         </div>
 
-                        <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5"></div>
+                        <div className="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5"></div>
                     </div>
 
 
@@ -253,7 +278,7 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP
                             </div>
                         </div>
 
-                        <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5"></div>
+                        <div className="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5"></div>
                     </div>
 
 
@@ -344,7 +369,7 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP
                             </div>
                         </div>
 
-                        <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5"></div>
+                        <div className="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5"></div>
                     </div>
 
                 {/*<ul>
