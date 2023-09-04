@@ -300,7 +300,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         alt="angular Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={75}
+                                        width={70}
                                     />
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
@@ -326,7 +326,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         alt="NodeJs Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={75}
+                                        width={50}
                                     />
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
@@ -339,7 +339,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         alt="Redux Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={75}
+                                        width={60}
                                     />
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
@@ -352,7 +352,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         alt="gatsby Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={75}
+                                        width={50}
                                     />
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
@@ -365,7 +365,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         alt="VueJs Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={75}
+                                        width={60}
                                     />
                                 </div>
                             </div>
