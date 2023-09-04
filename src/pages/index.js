@@ -1,20 +1,23 @@
 import React from "react" 
 import { Link, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+// import anime from "animejs"
 import Layout from "../components/Layout"
 
 const Index = ({ data }) => {
-  const {
-    site: {
-        headers,
-        siteMetadata: { name, role },
-    },
-  } = data;
-  return (
-    <>
-    {console.log(role)}
+    const {
+        site: {
+            siteMetadata: { name, role },
+        },
+    } = data;
+
+    return (
+        <>
+        {console.log(role)}
         <Layout>
-            <h1>This is the index page.</h1>
+            <h1 className="text-3xl font-bold underline">
+                This is the index page.
+            </h1>
             <p>
                 <Link to="/projects">Projects</Link><br/>
         </p>
@@ -146,3 +149,41 @@ export const query = graphql`
   `
 
 export default Index
+
+// const circle  = {
+//     height: '50px',
+//     width: '50px',
+//     borderRadius: '50%',
+//     backgroundColor: 'red',
+// }
+
+        // <div className="circle" style={circle}></div>
+    // function getScrollPercent() {
+    //    var h = document.documentElement,
+    //    b = document.body,
+    //    st = 'scrollTop',
+    //    sh = 'scrollHeight';
+    //    return (h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight) * 100;
+    //  }
+
+    // const els = document.querySelectorAll('.circle');
+    // const tl = anime.timeline({ autoplay: false });
+
+    // window.addEventListener('scroll', () => {
+    //     const percentage = getScrollPercent();
+    //     console.log(percentage);
+    //     tl.seek(tl.duration * (percentage * 0.01));
+    // });
+
+    // const animationRef = React.useRef(null);
+    // React.useEffect(() => {
+    //     animationRef.current = anime({
+    //         op: anime.random(0, 150) + 'vh',
+    //         left: anime.random(0, 100) + 'vw',
+    //         targets: '.circle',
+    //         translateX: 250,
+    //         duration: 4000,
+    //         delay: anime.stagger(200, {start: 1000}),
+    //         seek: percentage,
+    //     });
+    // });
