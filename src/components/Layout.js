@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
         <div>
             <Header/>
             <main className="flex p-6 min-h-screen
-                bg-gradient-to-r from-orange-300 to-orange-200">
+                bg-gradient-to-r from-orange-400 to-orange-300">
                 { children }
             </main>
             <Footer/>

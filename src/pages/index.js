@@ -37,7 +37,7 @@ const Index = ({ data }) => {
                         <span className="flex-none block mx-4 px-4 py-2.5 text-m leading-none font-medium uppercase bg-red-700 text-white"data-sal="zoom-in"
                             data-sal-duration="1000"
                             data-sal-easing="ease-out-back">
-                            Resume
+                            Work History
                         </span>
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
                     </h2>
