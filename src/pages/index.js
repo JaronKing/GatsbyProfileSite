@@ -15,123 +15,129 @@ const Index = ({ data }) => {
         <>
         {console.log(role)}
         <Layout>
-            <h1 className="text-3xl font-bold underline">
-                This is the index page.
-            </h1>
-            <p>
-                <Link to="/projects">Projects</Link><br/>
-        </p>
-        <p>Resume</p>
-        <p>Technologies</p>
-        <p>Projects</p>
-        <p>Contact</p>
-        <p>Technologies</p>
-          <ul>
-            <li>
-                PHP
-                <StaticImage 
-                    src="../images/php.png"
-                    alt="Php Logo"
-                    placeholder="blurred"
-                    layout="fixed"
-                    width={50}
-                />
-              <p>Frameworks</p>
-              <ul>
-                <li>Symfony
-                    <StaticImage 
-                        src="../images/symfony.png"
-                        alt="Php Logo"
-                        placeholder="blurred"
-                        layout="fixed"
-                        width={50}
-                    />
+            <div className="w-full max-w-lg px-10 py-8 mx-auto bg-white rounded-lg shadow-xl">
+                <div class='max-w-md mx-auto space-y-6'>
+                     <h2 class="flex flex-row flex-nowrap items-center my-8">
+                        <span class="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
+                        <span class="flex-none block mx-4   px-4 py-2.5 text-xs leading-none font-medium uppercase bg-black text-white">
+                            Technologies
+                        </span>
+                        <span class="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
+                    </h2>
+                </div>
+                <ul>
+                    <li>
+                        PHP
+                        <StaticImage 
+                            src="../images/php.png"
+                            alt="Php Logo"
+                            placeholder="blurred"
+                            layout="fixed"
+                            width={50}
+                        />
+                        <p>Frameworks</p>
+                        <ul>
+                            <li>Symfony
+                                <StaticImage 
+                                    src="../images/symfony.png"
+                                    alt="Php Logo"
+                                    placeholder="blurred"
+                                    layout="fixed"
+                                    width={50}
+                                />
+                            </li>
+                            <li>Laravel
+                                <StaticImage 
+                                    src="../images/laravel.png"
+                                    alt="Php Logo"
+                                    placeholder="blurred"
+                                    layout="fixed"
+                                    width={50}
+                                />
+                            </li>
+                            <li>Codeignitor
+                                <StaticImage 
+                                    src="../images/codeignitor.png"
+                                    alt="Php Logo"
+                                    placeholder="blurred"
+                                    layout="fixed"
+                                    width={50}
+                                />
+                            </li>
+                            <li>CakePHP
+                                <StaticImage 
+                                    src="../images/cakephp.png"
+                                    alt="Php Logo"
+                                    placeholder="blurred"
+                                    layout="fixed"
+                                    width={50}
+                                />
+                            </li>
+                            <li>WordPress
+                                <StaticImage 
+                                    src="../images/wordpress.png"
+                                    alt="Php Logo"
+                                    placeholder="blurred"
+                                    layout="fixed"
+                                    width={50}
+                                />
+                            </li>
+                        </ul>
+                  </li>
+
+                <li>
+                  <p>Javascript</p>
+                  <p>Frameworks/Libraries</p>
+                  <ul>
+                    <li>Angular</li>
+                    <li>React</li>
+                    <li>JQuery</li>
+                    <li>Node</li>
+                    <li>Redux</li>
+                    <li>Gatsby</li>
+                    <li>Johnny 5</li>
+                    <li>VueJs</li>
+                    <li>Mustache</li>
+                  </ul>
                 </li>
-                <li>Laravel
-                    <StaticImage 
-                        src="../images/laravel.png"
-                        alt="Php Logo"
-                        placeholder="blurred"
-                        layout="fixed"
-                        width={50}
-                    />
+                <li>
+                  <p>CSS</p>
+                  <p>Frameworks/Libraries</p>
+                  <ul>
+                    <li>Bootstrap</li>
+                    <li>Landing Page Design</li>
+                    <li>Email Marketing</li>
+                  </ul>
                 </li>
-                <li>Codeignitor
-                    <StaticImage 
-                        src="../images/codeignitor.png"
-                        alt="Php Logo"
-                        placeholder="blurred"
-                        layout="fixed"
-                        width={50}
-                    />
+                <li>
+                  <p>Server Technologies</p>
+                  <ul>
+                    <li>Apache</li>
+                    <li>Nginx</li>
+                    <li>NodeJs</li>
+                    <li>AWS Elastic Beanstalk</li>
+                    <li>Buckets</li>
+                    <li>Jenkins</li>
+                    <li>Docker</li>
+                    <li>Ubuntu</li>
+                  </ul>
                 </li>
-                <li>CakePHP
-                    <StaticImage 
-                        src="../images/cakephp.png"
-                        alt="Php Logo"
-                        placeholder="blurred"
-                        layout="fixed"
-                        width={50}
-                    />
+                <li>
+                  <p>Databases</p>
+                  <ul>
+                    <li>MySQL</li>
+                    <li>MSSql</li>
+                    <li>Firebase</li>
+                  </ul>
                 </li>
-                <li>WordPress
-                    <StaticImage 
-                        src="../images/wordpress.png"
-                        alt="Php Logo"
-                        placeholder="blurred"
-                        layout="fixed"
-                        width={50}
-                    />
-                </li>
+                <li>Python</li>
               </ul>
-            </li>
-            <li>
-              <p>Javascript</p>
-              <p>Frameworks/Libraries</p>
-              <ul>
-                <li>Angular</li>
-                <li>React</li>
-                <li>JQuery</li>
-                <li>Node</li>
-                <li>Redux</li>
-                <li>Gatsby</li>
-                <li>Johnny 5</li>
-                <li>VueJs</li>
-                <li>Mustache</li>
-              </ul>
-            </li>
-            <li>
-              <p>CSS</p>
-              <p>Frameworks/Libraries</p>
-              <ul>
-                <li>Bootstrap</li>
-                <li>Landing Page Design</li>
-                <li>Email Marketing</li>
-              </ul>
-            </li>
-            <li>
-              <p>Server Technologies</p>
-              <ul>
-                <li>Apache</li>
-                <li>Nginx</li>
-                <li>NodeJs</li>
-                <li>AWS Elastic Beanstalk</li>
-                <li>Buckets</li>
-                <li>Jenkins</li>
-                <li>Docker</li>
-                <li>Ubuntu</li>
-              </ul>
-            </li>
-            <li>
-              <p>Databases</p>
-              <ul>
-                <li>MySQL</li>
-                <li>MSSql</li>
-                <li>Firebase</li>
-              </ul>
-            </li>
-            <li>Python</li>
-          </ul>
+
+</div>
+
+
+
+                
       </Layout>
     </>
   )
