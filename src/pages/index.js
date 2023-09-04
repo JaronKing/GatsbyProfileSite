@@ -520,25 +520,7 @@ const Index = ({ data }) => {
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
                     </h2>
                 </div>
-
-
-
-{/*{
-    phpData.map(({image, alt}, index) => {
-    return (
-        <div key={image} className="flex flex-row flex-nowrap"><span>heere1</span>
-            <span>{ index }</span>
-            <span>{ alt }</span>
-            <span>{ image }</span>
-        </div>
-    )
-})
-}*/}
             </div>
-
-
-
-                
         </Layout>
     </>
   )
