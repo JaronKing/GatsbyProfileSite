@@ -14,7 +14,7 @@ const Index = ({ data }) => {
         <>
         {console.log(role)}
         <Layout>
-            <div className="w-full max-w-lg px-10 py-8 p-6 mx-auto bg-white rounded-lg shadow-xl">
+            <div className="w-full max-w-lg px-10 py-8 mx-auto bg-white rounded-lg shadow-xl">
                 <div className='max-w-md mx-auto space-y-6 '>
                     <h1 className="text-center">
                        Jaron King
@@ -36,79 +36,150 @@ const Index = ({ data }) => {
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
                     </h2>
 
-  <div className="flex flex-row flex-nowrap items-center text-center">
-    
-    <StaticImage 
-        src="../images/php.png"
-        alt="Php Logo"
-        placeholder="blurred"
-        layout="fixed"
-        width={50}
-    />
-    </div>
-<div className="
-    not-prose 
-    relative 
-    bg-slate-50 
-    rounded-xl 
-    overflow-hidden 
-    dark:bg-slate-800/25">
+                    <div className="flex flex-row justify-center">
+                        <StaticImage 
+                            src="../images/php.png"
+                            alt="Php Logo"
+                            placeholder="blurred"
+                            layout="fixed"
+                            width={50}
+                        />
+                    </div>
+                    <div className="not-prose relative bg-slate-50 rounded-xl overflow-hidden ">
+                        <div className="relative rounded-xl overflow-auto p-8">
+                            <div className="flex justify-start space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+                                    <StaticImage 
+                                        src="../images/symfony.png"
+                                        alt="Php Logo"
+                                        placeholder="blurred"
+                                        layout="fixed"
+                                        width={50}
+                                    />
+                                </div>
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+                                    <StaticImage 
+                                        src="../images/laravel.png"
+                                        alt="Php Logo"
+                                        placeholder="blurred"
+                                        layout="fixed"
+                                        width={50}
+                                    />
+                                </div>
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+                                    <StaticImage 
+                                        src="../images/codeignitor.png"
+                                        alt="Php Logo"
+                                        placeholder="blurred"
+                                        layout="fixed"
+                                        width={50}
+                                    />
+                                </div>
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+                                    <StaticImage 
+                                        src="../images/cakephp.png"
+                                        alt="Php Logo"
+                                        placeholder="blurred"
+                                        layout="fixed"
+                                        width={50}
+                                    />
+                                </div>
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+                                    <StaticImage 
+                                        src="../images/wordpress.png"
+                                        alt="Php Logo"
+                                        placeholder="blurred"
+                                        layout="fixed"
+                                        width={50}
+                                    />
+                                </div>
+                            </div>
+                        </div>
 
-<div className="relative rounded-xl overflow-auto p-8">
-<div className="flex justify-start space-x-4 font-mono text-white text-sm font-bold leading-6 bg-stripes-gray rounded-lg">
-  <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
-    <StaticImage 
-        src="../images/symfony.png"
-        alt="Php Logo"
-        placeholder="blurred"
-        layout="fixed"
-        width={50}
-    />
-  </div>
-  <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
-    <StaticImage 
-        src="../images/laravel.png"
-        alt="Php Logo"
-        placeholder="blurred"
-        layout="fixed"
-        width={50}
-    />
-  </div>
-  <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
-    <StaticImage 
-        src="../images/codeignitor.png"
-        alt="Php Logo"
-        placeholder="blurred"
-        layout="fixed"
-        width={50}
-    />
-  </div>
-  <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
-    <StaticImage 
-        src="../images/cakephp.png"
-        alt="Php Logo"
-        placeholder="blurred"
-        layout="fixed"
-        width={50}
-    />
-  </div>
-  <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
-    <StaticImage 
-        src="../images/wordpress.png"
-        alt="Php Logo"
-        placeholder="blurred"
-        layout="fixed"
-        width={50}
-    />
-  </div>
-  
-</div>
-</div>
-<div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5"></div></div>
+                        <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5"></div>
+                    </div>
+
+
+                    <div className="flex flex-row justify-center">
+                        <StaticImage 
+                            src="../images/javascript.png"
+                            alt="Javascript Logo"
+                            placeholder="blurred"
+                            layout="fixed"
+                            width={50}
+                        />
+                    </div>
+                    <div className="not-prose relative bg-slate-50 rounded-xl overflow-hidden ">
+                        <div className="relative rounded-xl overflow-auto p-8">
+                            <div className="flex justify-start space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+                                    <StaticImage 
+                                        src="../images/angular.png"
+                                        alt="angular Logo"
+                                        placeholder="blurred"
+                                        layout="fixed"
+                                        width={50}
+                                    />
+                                </div>
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+                                    <StaticImage 
+                                        src="../images/react.png"
+                                        alt="react Logo"
+                                        placeholder="blurred"
+                                        layout="fixed"
+                                        width={50}
+                                    />
+                                </div>
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+                                    <StaticImage 
+                                        src="../images/nodejs.gif"
+                                        alt="NodeJs Logo"
+                                        placeholder="blurred"
+                                        layout="fixed"
+                                        width={50}
+                                    />
+                                </div>
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+                                    <StaticImage 
+                                        src="../images/redux.png"
+                                        alt="Redux Logo"
+                                        placeholder="blurred"
+                                        layout="fixed"
+                                        width={50}
+                                    />
+                                </div>
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+                                    <StaticImage 
+                                        src="../images/gatsby.png"
+                                        alt="gatsby Logo"
+                                        placeholder="blurred"
+                                        layout="fixed"
+                                        width={50}
+                                    />
+                                </div>
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+                                    <StaticImage 
+                                        src="../images/vuejs.png"
+                                        alt="VueJs Logo"
+                                        placeholder="blurred"
+                                        layout="fixed"
+                                        width={50}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5"></div>
+                    </div>
+
+
+
 
                 <ul>
-                <li>
-                  <p>Javascript</p>
+
+
+
+                  {/*<p>Javascript</p>
                   <p>Frameworks/Libraries</p>
                   <ul>
                     <li>Angular</li>
@@ -120,8 +191,7 @@ const Index = ({ data }) => {
                     <li>Johnny 5</li>
                     <li>VueJs</li>
                     <li>Mustache</li>
-                  </ul>
-                </li>
+                  </ul>*/}
                 <li>
                   <p>CSS</p>
                   <p>Frameworks/Libraries</p>
