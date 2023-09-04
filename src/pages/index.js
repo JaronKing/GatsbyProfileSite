@@ -523,7 +523,56 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                     </div>
 
 
+                    <div className="flex flex-row justify-center"
+                        data-sal="slide-up"
+                        data-sal-delay="300"
+                        data-sal-duration="2000"
+                        data-sal-easing="ease-out-back">
+                        <StaticImage
+                            src="../images/database.png"
+                            alt="Database Logo"
+                            placeholder="blurred"
+                            layout="fixed"
+                            width={100}
+                        />
+                    </div>
+                    <div className="not-prose relative bg-orange-200 bg-stripes bg-stripes-white rounded-xl overflow-hidden"
+                        data-sal="flip-down"
+                        data-sal-duration="1000"
+                        data-sal-easing="ease-out-back">
+                        <div className="relative rounded-xl overflow-auto p-8">
+                            <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                    data-sal="slide-up"
+                                    data-sal-duration="1500"
+                                    data-sal-delay="300"
+                                    data-sal-easing="ease">
+                                    <StaticImage
+                                        src="../images/mysql.png"
+                                        alt="MySQL Logo"
+                                        placeholder="blurred"
+                                        layout="fixed"
+                                        width={75}
+                                    />
+                                </div>
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                    data-sal="slide-up"
+                                    data-sal-duration="1500"
+                                    data-sal-delay="400"
+                                    data-sal-easing="ease">
+                                    <StaticImage
+                                        src="../images/firebase.png"
+                                        alt="Firebase Logo"
+                                        placeholder="blurred"
+                                        layout="fixed"
+                                        width={75}
+                                    />
+                                </div>
+                            </div>
+                        </div>
 
+                        <div className="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5"></div>
+                    </div>
                 {/*<ul>
 
 
