@@ -1,7 +1,6 @@
 import React from "react" 
 import { Link, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-// import anime from "animejs"
 import Layout from "../components/Layout"
 
 const Index = ({ data }) => {
@@ -15,76 +14,99 @@ const Index = ({ data }) => {
         <>
         {console.log(role)}
         <Layout>
-            <div className="w-full max-w-lg px-10 py-8 mx-auto bg-white rounded-lg shadow-xl">
-                <div class='max-w-md mx-auto space-y-6'>
-                     <h2 class="flex flex-row flex-nowrap items-center my-8">
-                        <span class="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
-                        <span class="flex-none block mx-4   px-4 py-2.5 text-xs leading-none font-medium uppercase bg-black text-white">
+            <div className="w-full max-w-lg px-10 py-8 p-6 mx-auto bg-white rounded-lg shadow-xl">
+                <div className='max-w-md mx-auto space-y-6 '>
+                    <h1 className="text-center">
+                       Jaron King
+                    </h1>
+
+                    <h2 className="flex flex-row flex-nowrap items-center my-8">
+                        <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
+                        <span className="flex-none block mx-4   px-4 py-2.5 text-xs leading-none font-medium uppercase bg-black text-white">
+                            Resume
+                        </span>
+                        <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
+                    </h2>
+
+                     <h2 className="flex flex-row flex-nowrap items-center my-8">
+                        <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
+                        <span className="flex-none block mx-4 px-4 py-2.5 text-xs leading-none font-medium uppercase bg-black text-white">
                             Technologies
                         </span>
-                        <span class="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
+                        <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
                     </h2>
-                </div>
-                <ul>
-                    <li>
-                        PHP
-                        <StaticImage 
-                            src="../images/php.png"
-                            alt="Php Logo"
-                            placeholder="blurred"
-                            layout="fixed"
-                            width={50}
-                        />
-                        <p>Frameworks</p>
-                        <ul>
-                            <li>Symfony
-                                <StaticImage 
-                                    src="../images/symfony.png"
-                                    alt="Php Logo"
-                                    placeholder="blurred"
-                                    layout="fixed"
-                                    width={50}
-                                />
-                            </li>
-                            <li>Laravel
-                                <StaticImage 
-                                    src="../images/laravel.png"
-                                    alt="Php Logo"
-                                    placeholder="blurred"
-                                    layout="fixed"
-                                    width={50}
-                                />
-                            </li>
-                            <li>Codeignitor
-                                <StaticImage 
-                                    src="../images/codeignitor.png"
-                                    alt="Php Logo"
-                                    placeholder="blurred"
-                                    layout="fixed"
-                                    width={50}
-                                />
-                            </li>
-                            <li>CakePHP
-                                <StaticImage 
-                                    src="../images/cakephp.png"
-                                    alt="Php Logo"
-                                    placeholder="blurred"
-                                    layout="fixed"
-                                    width={50}
-                                />
-                            </li>
-                            <li>WordPress
-                                <StaticImage 
-                                    src="../images/wordpress.png"
-                                    alt="Php Logo"
-                                    placeholder="blurred"
-                                    layout="fixed"
-                                    width={50}
-                                />
-                            </li>
-                        </ul>
-                  </li>
 
+  <div className="flex flex-row flex-nowrap items-center text-center">
+    
+    <StaticImage 
+        src="../images/php.png"
+        alt="Php Logo"
+        placeholder="blurred"
+        layout="fixed"
+        width={50}
+    />
+    </div>
+<div className="
+    not-prose 
+    relative 
+    bg-slate-50 
+    rounded-xl 
+    overflow-hidden 
+    dark:bg-slate-800/25">
+
+<div className="relative rounded-xl overflow-auto p-8">
+<div className="flex justify-start space-x-4 font-mono text-white text-sm font-bold leading-6 bg-stripes-gray rounded-lg">
+  <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+    <StaticImage 
+        src="../images/symfony.png"
+        alt="Php Logo"
+        placeholder="blurred"
+        layout="fixed"
+        width={50}
+    />
+  </div>
+  <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+    <StaticImage 
+        src="../images/laravel.png"
+        alt="Php Logo"
+        placeholder="blurred"
+        layout="fixed"
+        width={50}
+    />
+  </div>
+  <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+    <StaticImage 
+        src="../images/codeignitor.png"
+        alt="Php Logo"
+        placeholder="blurred"
+        layout="fixed"
+        width={50}
+    />
+  </div>
+  <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+    <StaticImage 
+        src="../images/cakephp.png"
+        alt="Php Logo"
+        placeholder="blurred"
+        layout="fixed"
+        width={50}
+    />
+  </div>
+  <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+    <StaticImage 
+        src="../images/wordpress.png"
+        alt="Php Logo"
+        placeholder="blurred"
+        layout="fixed"
+        width={50}
+    />
+  </div>
+  
+</div>
+</div>
+<div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5"></div></div>
+
+                <ul>
                 <li>
                   <p>Javascript</p>
                   <p>Frameworks/Libraries</p>
@@ -131,14 +153,23 @@ const Index = ({ data }) => {
                   </ul>
                 </li>
                 <li>Python</li>
-              </ul>
-
-</div>
+                </ul>
+                </div>
+                <div>
+                    <h2 className="flex flex-row flex-nowrap items-center my-8">
+                        <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
+                        <span className="flex-none block mx-4   px-4 py-2.5 text-xs leading-none font-medium uppercase bg-black text-white">
+                            Projects
+                        </span>
+                        <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
+                    </h2>
+                </div>
+            </div>
 
 
 
                 
-      </Layout>
+        </Layout>
     </>
   )
 }
@@ -156,6 +187,8 @@ export const query = graphql`
 
 export default Index
 
+
+// import anime from "animejs"
 // const circle  = {
 //     height: '50px',
 //     width: '50px',
