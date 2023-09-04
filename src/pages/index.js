@@ -28,6 +28,41 @@ const Index = ({ data }) => {
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
                     </h2>
 
+September ‘19<br/>
+Freelance, San Diego, CA<br/>
+Stat Eye Consult application development https://www.stateyeconsult.com<br/>
+Symfony 2, Bootstrap 3, Javascript, Git, LAMP.<br/>
+<br/>
+July ‘17 to September ‘19<br/>
+Luxer One, Sacramento, CA<br/>
+Improved and maintained CakePhp 2 application and integration with dozens of 3rd party applications.<br/>
+CakePhp 2, JavaScript, MySQL, VueJS, Mustache, AWS and Google buckets/ remote storage<br/>
+<br/>
+Feb. ’16 to May `17
+Dynamic Vision, Temecula, CA
+Migrated Laravel 2 application to Laravel 4 while also implementing Angular.  Also helped with migrating terabytes of data from MicrosoftSQL to MySQL.
+Laravel 4, NodeJS, Firebase, Angular 2, Bootstrap 3, Git, JIRA, LAMP, MySQL, NOSQL
+ 
+Mar. ’15 to Feb. ‘16
+Freelance, San Diego, CA
+Projects ranged from CMS blogs to Craigslist like applications, ItsTheGuac, StatEyeConsult, BestOfWebflix
+Symfony 2, Laravel 4, Bootstrap 3, Javascript, Git, LEMP, LAMP.
+  
+Mar. ’14 to Mar. ‘15
+AP Media, San Diego, CA  
+Facebook advertising platform that would grow to support emails and websites.
+Symfony2, Codeignitor, Git, HTML5, JQuery, Twig, Bootstrap 3, eCommerce, LEMP and LAMP.
+
+Digital Marketing Analyst     
+Dec. ’12 to Mar. ‘14
+Adconion Direct, San Diego, CA
+Git, Powershell, Email Marketing, Port25 MTA and Creative generation
+
+Information Technology Assistant           
+Sept. ’10 to June ‘12
+Regents of the University of California, Davis, CA
+Created and developed Adobe Captivate courses used for University staff.  Developed and deployed websites based on WordPress CMS, and other PHP web applications. 
+Wordpress, PHP, Bootstrap, HTML5, Git, LAMP 
 
 
                      <h2 className="flex flex-row flex-nowrap items-center my-8">
