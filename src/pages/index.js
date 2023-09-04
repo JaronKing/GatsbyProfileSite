@@ -14,7 +14,7 @@ const Index = ({ data }) => {
         <>
         {console.log(role)}
         <Layout>
-            <div className="w-full max-w-lg px-10 py-8 mx-auto bg-white rounded-lg shadow-xl">
+            <div className="w-full max-w-xl px-10 py-8 mx-auto bg-white rounded-lg shadow-xl">
                 <div className='max-w-md mx-auto space-y-6 '>
                     <h1 className="text-center">
                        Jaron King
@@ -44,19 +44,19 @@ const Index = ({ data }) => {
                             alt="Php Logo"
                             placeholder="blurred"
                             layout="fixed"
-                            width={50}
+                            width={100}
                         />
                     </div>
                     <div className="not-prose relative bg-light-blue-400 bg-stripes bg-stripes-white rounded-xl overflow-hidden border-light-blue-200 bg-light-blue-200 rounded-md">
                         <div className="relative rounded-xl overflow-auto p-8">
-                            <div className="flex justify-start space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
+                            <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
                                     <StaticImage 
                                         src="../images/symfony.png"
                                         alt="Php Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={50}
+                                        width={75}
                                     />
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
@@ -65,7 +65,7 @@ const Index = ({ data }) => {
                                         alt="Php Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={50}
+                                        width={75}
                                     />
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
@@ -74,7 +74,7 @@ const Index = ({ data }) => {
                                         alt="Php Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={50}
+                                        width={75}
                                     />
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
@@ -83,7 +83,7 @@ const Index = ({ data }) => {
                                         alt="Php Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={50}
+                                        width={75}
                                     />
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
@@ -92,7 +92,7 @@ const Index = ({ data }) => {
                                         alt="Php Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={50}
+                                        width={75}
                                     />
                                 </div>
                             </div>
@@ -108,19 +108,19 @@ const Index = ({ data }) => {
                             alt="Javascript Logo"
                             placeholder="blurred"
                             layout="fixed"
-                            width={50}
+                            width={100}
                         />
                     </div>
                     <div className="not-prose relative bg-cyan-400 bg-stripes bg-stripes-white rounded-xl overflow-hidden ">
                         <div className="relative rounded-xl overflow-auto p-8">
-                            <div className="flex justify-start space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
+                            <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
                                     <StaticImage 
                                         src="../images/angular.png"
                                         alt="angular Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={50}
+                                        width={75}
                                     />
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
@@ -129,16 +129,16 @@ const Index = ({ data }) => {
                                         alt="react Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={50}
+                                        width={75}
                                     />
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
                                     <StaticImage 
-                                        src="../images/nodejs.gif"
+                                        src="../images/nodejs.png"
                                         alt="NodeJs Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={50}
+                                        width={75}
                                     />
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
@@ -147,7 +147,7 @@ const Index = ({ data }) => {
                                         alt="Redux Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={50}
+                                        width={75}
                                     />
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
@@ -156,7 +156,7 @@ const Index = ({ data }) => {
                                         alt="gatsby Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={50}
+                                        width={75}
                                     />
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
@@ -165,7 +165,7 @@ const Index = ({ data }) => {
                                         alt="VueJs Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={50}
+                                        width={75}
                                     />
                                 </div>
                             </div>
@@ -175,7 +175,77 @@ const Index = ({ data }) => {
                     </div>
 
 
+                    <div className="flex flex-row justify-center">
+                        <StaticImage 
+                            src="../images/ubuntu.png"
+                            alt="Ubuntu Logo"
+                            placeholder="blurred"
+                            layout="fixed"
+                            width={100}
+                        />
+                    </div>
+                    <div className="not-prose relative bg-red-200 bg-stripes bg-stripes-white rounded-xl overflow-hidden ">
+                        <div className="relative rounded-xl overflow-auto p-8">
+                            <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
+                                    <StaticImage 
+                                        src="../images/apache.png"
+                                        alt="apache Logo"
+                                        placeholder="blurred"
+                                        layout="fixed"
+                                        width={75}
+                                    />
+                                </div>
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
+                                    <StaticImage 
+                                        src="../images/nginx.png"
+                                        alt="nginx Logo"
+                                        placeholder="blurred"
+                                        layout="fixed"
+                                        width={75}
+                                    />
+                                </div>
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
+                                    <StaticImage 
+                                        src="../images/jenkins.png"
+                                        alt="Jenkins Logo"
+                                        placeholder="blurred"
+                                        layout="fixed"
+                                        width={75}
+                                    />
+                                </div>
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
+                                    <StaticImage 
+                                        src="../images/docker.png"
+                                        alt="Docker Logo"
+                                        placeholder="blurred"
+                                        layout="fixed"
+                                        width={75}
+                                    />
+                                </div>
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
+                                    <StaticImage 
+                                        src="../images/elasticbeanstalk.png"
+                                        alt="Docker Logo"
+                                        placeholder="blurred"
+                                        layout="fixed"
+                                        width={75}
+                                    />
+                                </div>
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
+                                    <StaticImage 
+                                        src="../images/s3buckets.png"
+                                        alt="Docker Logo"
+                                        placeholder="blurred"
+                                        layout="fixed"
+                                        width={100}
+                                    />
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5"></div>
+                    </div>
 
                 <ul>
 
