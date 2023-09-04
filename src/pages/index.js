@@ -347,7 +347,7 @@ const Index = ({ data }) => {
                             alt="Ubuntu Logo"
                             placeholder="blurred"
                             layout="fixed"
-                            height={100}
+                            width={100}
                         />
                     </div>
                     <div className="not-prose relative bg-red-200 bg-stripes bg-stripes-white rounded-xl overflow-hidden"
@@ -392,7 +392,7 @@ const Index = ({ data }) => {
                                         alt="Jenkins Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={75}
+                                        width={65}
                                     />
                                 </div>
                                 <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
@@ -405,7 +405,7 @@ const Index = ({ data }) => {
                                         alt="Docker Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={75}
+                                        width={65}
                                     />
                                 </div>
                                 <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
@@ -451,7 +451,7 @@ const Index = ({ data }) => {
                             alt="Database Logo"
                             placeholder="blurred"
                             layout="fixed"
-                            height={100}
+                            width={70}
                         />
                     </div>
                     <div className="not-prose relative bg-orange-200 bg-stripes bg-stripes-white rounded-xl overflow-hidden"
