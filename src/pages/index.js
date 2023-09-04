@@ -31,19 +31,12 @@ const Index = ({ data }) => {
                     <h2 className="flex flex-row flex-nowrap items-center my-8" >
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
                         <span className="flex-none block mx-4 px-4 py-2.5 text-m leading-none font-medium uppercase bg-red-700 text-white"data-sal="zoom-in"
-                            data-sal-delay="300"
-                            data-sal-duration="2000"
+                            data-sal-duration="1000"
                             data-sal-easing="ease-out-back">
                             Resume
                         </span>
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
                     </h2>
-
-September ‘19<br/>
-Freelance, San Diego, CA<br/>
-Stat Eye Consult application development https://www.stateyeconsult.com<br/>
-Symfony 2, Bootstrap 3, Javascript, Git, LAMP.<br/>
-<br/>
 July ‘17 to September ‘19<br/>
 Luxer One, Sacramento, CA<br/>
 Improved and maintained CakePhp 2 application and integration with dozens of 3rd party applications.<br/>
@@ -81,8 +74,7 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                         <span 
                             className="flex-none block mx-4 px-4 py-2.5 text-m leading-none font-medium uppercase bg-red-700 text-white" 
                             data-sal="zoom-in"
-                            data-sal-delay="300"
-                            data-sal-duration="2000"
+                            data-sal-duration="1000"
                             data-sal-easing="ease-out-back">
                             Technologies
                         </span>
@@ -104,16 +96,15 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                     </div>
                     <div className="not-prose relative bg-light-blue-400 bg-stripes bg-stripes-white rounded-xl overflow-hidden border-light-blue-200 bg-light-blue-200 rounded-md"
                         data-sal="flip-down"
-                        data-sal-duration="2000"
-                        data-sal-delay="300"
+                        data-sal-duration="1000"
                         data-sal-easing="ease-out-back">
                         <div className="relative rounded-xl overflow-auto p-8">
                             <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                 data-sal="slide-up"
-                        data-sal-duration="2000"
-                        data-sal-delay="300"
-                        data-sal-easing="ease-out-back">
+                                data-sal-duration="1500"
+                                data-sal-delay="300"
+                                data-sal-easing="ease-out-back">
                                     <StaticImage 
                                         src="../images/symfony.png"
                                         alt="Php Logo"
@@ -124,9 +115,9 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                 data-sal="slide-up"
-                        data-sal-duration="2000"
-                        data-sal-delay="400"
-                        data-sal-easing="ease-out-back">
+                                data-sal-duration="1500"
+                                data-sal-delay="400"
+                                data-sal-easing="ease-out-back">
                                     <StaticImage 
                                         src="../images/laravel.png"
                                         alt="Php Logo"
@@ -137,9 +128,9 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                 data-sal="slide-up"
-                        data-sal-duration="2000"
-                        data-sal-delay="500"
-                        data-sal-easing="ease-out-back">
+                                data-sal-duration="1500"
+                                data-sal-delay="500"
+                                data-sal-easing="ease-out-back">
                                     <StaticImage 
                                         src="../images/codeignitor.png"
                                         alt="Php Logo"
@@ -150,7 +141,7 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                        data-sal-duration="2000"
+                                    data-sal-duration="1500"
                                     data-sal-delay="600"
                                     data-sal-easing="ease-out-back">
                                     <StaticImage 
@@ -163,7 +154,7 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-duration="2000"
+                                    data-sal-duration="1500"
                                     data-sal-delay="700"
                                     data-sal-easing="ease-out-back">
                                     <StaticImage 
@@ -180,30 +171,28 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                         <div className="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5"></div>
                     </div>
 
-
-                    <div className="flex flex-row justify-center">
+                    <div className="flex flex-row justify-center"
+                        data-sal="slide-up"
+                        data-sal-delay="300"
+                        data-sal-duration="2000"
+                        data-sal-easing="ease-out-back">
                         <StaticImage 
                             src="../images/javascript.png"
-                            alt="Javascript Logo"
+                            alt="javascript Logo"
                             placeholder="blurred"
                             layout="fixed"
                             width={100}
-                            data-sal="slide-up"
-                            data-sal-delay="300"
-                            data-sal-duration="2000"
-                            data-sal-easing="ease-out-back"
                         />
                     </div>
                     <div className="not-prose relative bg-green-400 bg-stripes bg-stripes-white rounded-xl overflow-hidden"
                         data-sal="flip-down"
-                        data-sal-duration="2000"
-                        data-sal-delay="300"
+                        data-sal-duration="1000"
                         data-sal-easing="ease-out-back">
                         <div className="relative rounded-xl overflow-auto p-8">
                             <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-duration="2000"
+                                    data-sal-duration="1500"
                                     data-sal-delay="300"
                                     data-sal-easing="ease">
                                     <StaticImage 
@@ -216,7 +205,7 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-duration="2000"
+                                    data-sal-duration="1500"
                                     data-sal-delay="400"
                                     data-sal-easing="ease">
                                     <StaticImage 
@@ -229,7 +218,7 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-duration="2000"
+                                    data-sal-duration="1500"
                                     data-sal-delay="500"
                                     data-sal-easing="ease">
                                     <StaticImage 
@@ -242,7 +231,7 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-duration="2000"
+                                    data-sal-duration="1500"
                                     data-sal-delay="600"
                                     data-sal-easing="ease">
                                     <StaticImage 
@@ -255,7 +244,7 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-duration="2000"
+                                    data-sal-duration="1500"
                                     data-sal-delay="700"
                                     data-sal-easing="ease">
                                     <StaticImage 
@@ -268,7 +257,7 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-duration="2000"
+                                    data-sal-duration="1500"
                                     data-sal-delay="800"
                                     data-sal-easing="ease">
                                     <StaticImage 
@@ -286,29 +275,28 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                     </div>
 
 
-                    <div className="flex flex-row justify-center">
+                    <div className="flex flex-row justify-center"
+                        data-sal="slide-up"
+                        data-sal-delay="300"
+                        data-sal-duration="2000"
+                        data-sal-easing="ease-out-back">
                         <StaticImage 
                             src="../images/ubuntu.png"
                             alt="Ubuntu Logo"
                             placeholder="blurred"
                             layout="fixed"
                             width={100}
-                            data-sal="slide-up"
-                            data-sal-delay="300"
-                            data-sal-duration="2000"
-                            data-sal-easing="ease-out-back"
                         />
                     </div>
                     <div className="not-prose relative bg-red-200 bg-stripes bg-stripes-white rounded-xl overflow-hidden"
                         data-sal="flip-down"
-                        data-sal-duration="2000"
-                        data-sal-delay="300"
+                        data-sal-duration="1000"
                         data-sal-easing="ease-out-back">
                         <div className="relative rounded-xl overflow-auto p-8">
                             <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-duration="2000"
+                                    data-sal-duration="1500"
                                     data-sal-delay="300"
                                     data-sal-easing="ease">
                                     <StaticImage 
@@ -321,7 +309,7 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-duration="2000"
+                                    data-sal-duration="1500"
                                     data-sal-delay="400"
                                     data-sal-easing="ease">
                                     <StaticImage 
@@ -334,7 +322,7 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-duration="2000"
+                                    data-sal-duration="1500"
                                     data-sal-delay="500"
                                     data-sal-easing="ease">
                                     <StaticImage 
@@ -347,7 +335,7 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-duration="2000"
+                                    data-sal-duration="1500"
                                     data-sal-delay="600"
                                     data-sal-easing="ease">
                                     <StaticImage 
@@ -360,7 +348,7 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-duration="2000"
+                                    data-sal-duration="1500"
                                     data-sal-delay="700"
                                     data-sal-easing="ease">
                                     <StaticImage 
@@ -373,7 +361,7 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-duration="2000"
+                                    data-sal-duration="1500"
                                     data-sal-delay="800"
                                     data-sal-easing="ease">
                                     <StaticImage 
@@ -443,7 +431,9 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                 <div>
                     <h2 className="flex flex-row flex-nowrap items-center my-8">
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
-                        <span className="flex-none block mx-4   px-4 py-2.5 text-xs leading-none font-medium uppercase bg-black text-white">
+                        <span className="flex-none block mx-4   px-4 py-2.5 text-xs leading-none font-medium uppercase bg-red-700 text-white"data-sal="zoom-in"
+                            data-sal-duration="1000"
+                            data-sal-easing="ease-out-back">
                             Projects
                         </span>
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
