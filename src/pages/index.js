@@ -12,9 +12,14 @@ const Index = ({ data }) => {
 
     const phpData = [
         {
-            "imageName":"php.png",
-            "alt":"Php Logo",
+            imageName:"php.png",
+            alt:"Php Logo",
         },
+        {
+            imageName:"php.png",
+            alt:"Php Logo",
+        },
+
     ];
 
     return (
@@ -36,6 +41,8 @@ const Index = ({ data }) => {
                         </span>
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
                     </h2>
+
+
 <div data-sal="slide-right"
     data-sal-duration="700"
     data-sal-delay="100"
@@ -573,56 +580,10 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
 
                         <div className="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5"></div>
                     </div>
-                {/*<ul>
-
-
-
-                  <p>Javascript</p>
-                  <p>Frameworks/Libraries</p>
-                  <ul>
-                    <li>Angular</li>
-                    <li>React</li>
-                    <li>JQuery</li>
-                    <li>Node</li>
-                    <li>Redux</li>
-                    <li>Gatsby</li>
-                    <li>Johnny 5</li>
-                    <li>VueJs</li>
-                    <li>Mustache</li>
-                  </ul>
-                <li>
-                  <p>CSS</p>
-                  <p>Frameworks/Libraries</p>
-                  <ul>
-                    <li>Bootstrap</li>
-                    <li>Landing Page Design</li>
-                    <li>Email Marketing</li>
-                  </ul>
-                </li>
-                <li>
-                  <p>Server Technologies</p>
-                  <ul>
-                    <li>Apache</li>
-                    <li>Nginx</li>
-                    <li>NodeJs</li>
-                    <li>AWS Elastic Beanstalk</li>
-                    <li>Buckets</li>
-                    <li>Jenkins</li>
-                    <li>Docker</li>
-                    <li>Ubuntu</li>
-                  </ul>
-                </li>
-                <li>
-                  <p>Databases</p>
-                  <ul>
-                    <li>MySQL</li>
-                    <li>MSSql</li>
-                    <li>Firebase</li>
-                  </ul>
-                </li>
-                <li>Python</li>
-                </ul>*/}
                 </div>
+
+
+
                 <div>
                     <h2 className="flex flex-row flex-nowrap items-center my-8">
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
@@ -636,6 +597,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                 </div>
 
 
+
                 <div>
                     <h2 className="flex flex-row flex-nowrap items-center my-8">
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
@@ -647,6 +609,20 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
                     </h2>
                 </div>
+
+
+
+{
+    phpData.map(({imageName, alt}, index) => {
+    return (
+        <div className="flex flex-row flex-nowrap"><span>heere1</span>
+            <span>{ index }</span>
+            <span>{ alt }</span>
+            <span>{ imageName }</span>
+        </div>
+    )
+})
+}
             </div>
 
 
