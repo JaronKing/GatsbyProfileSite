@@ -1,5 +1,5 @@
 import React from "react" 
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/Layout"
 
@@ -10,18 +10,12 @@ const Index = ({ data }) => {
         },
     } = data;
 
-    const dataSet = [
+    const phpData = [
         {
-            "firstname":"John",
-        },
-        {
-            "firstname":"John",
+            "imageName":"php.png",
+            "alt":"Php Logo",
         },
     ];
-
-    // const dataSet = {};
-
-
 
     return (
         <>
@@ -32,15 +26,7 @@ const Index = ({ data }) => {
                     <h1 className="text-center">
                        Jaron King
                     </h1>
-                        {
-                            dataSet.map((item) => {
-                              return (
-                                <p>
-                                  {item.firstname}
-                                </p>
-                              )
-                            })
-                        }
+                        
 
                     <h2 className="flex flex-row flex-nowrap items-center my-8" >
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
@@ -116,7 +102,11 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                             width={100}
                         />
                     </div>
-                    <div className="not-prose relative bg-light-blue-400 bg-stripes bg-stripes-white rounded-xl overflow-hidden border-light-blue-200 bg-light-blue-200 rounded-md">
+                    <div className="not-prose relative bg-light-blue-400 bg-stripes bg-stripes-white rounded-xl overflow-hidden border-light-blue-200 bg-light-blue-200 rounded-md"
+                        data-sal="flip-down"
+                        data-sal-duration="2000"
+                        data-sal-delay="300"
+                        data-sal-easing="ease-out-back">
                         <div className="relative rounded-xl overflow-auto p-8">
                             <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
@@ -135,7 +125,7 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                 data-sal="slide-up"
                         data-sal-duration="2000"
-                        data-sal-delay="300"
+                        data-sal-delay="400"
                         data-sal-easing="ease-out-back">
                                     <StaticImage 
                                         src="../images/laravel.png"
@@ -148,7 +138,7 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                 data-sal="slide-up"
                         data-sal-duration="2000"
-                        data-sal-delay="300"
+                        data-sal-delay="500"
                         data-sal-easing="ease-out-back">
                                     <StaticImage 
                                         src="../images/codeignitor.png"
@@ -161,7 +151,7 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                         data-sal-duration="2000"
-                                    data-sal-delay="300"
+                                    data-sal-delay="600"
                                     data-sal-easing="ease-out-back">
                                     <StaticImage 
                                         src="../images/cakephp.png"
@@ -173,8 +163,8 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                        data-sal-duration="2000"
-                                    data-sal-delay="300"
+                                    data-sal-duration="2000"
+                                    data-sal-delay="700"
                                     data-sal-easing="ease-out-back">
                                     <StaticImage 
                                         src="../images/wordpress.png"
@@ -198,13 +188,22 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                             placeholder="blurred"
                             layout="fixed"
                             width={100}
+                            data-sal="slide-up"
+                            data-sal-delay="300"
+                            data-sal-duration="2000"
+                            data-sal-easing="ease-out-back"
                         />
                     </div>
-                    <div className="not-prose relative bg-cyan-400 bg-stripes bg-stripes-white rounded-xl overflow-hidden ">
+                    <div className="not-prose relative bg-green-400 bg-stripes bg-stripes-white rounded-xl overflow-hidden"
+                        data-sal="flip-down"
+                        data-sal-duration="2000"
+                        data-sal-delay="300"
+                        data-sal-easing="ease-out-back">
                         <div className="relative rounded-xl overflow-auto p-8">
                             <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
+                                    data-sal-duration="2000"
                                     data-sal-delay="300"
                                     data-sal-easing="ease">
                                     <StaticImage 
@@ -217,7 +216,8 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-delay="300"
+                                    data-sal-duration="2000"
+                                    data-sal-delay="400"
                                     data-sal-easing="ease">
                                     <StaticImage 
                                         src="../images/react.png"
@@ -229,7 +229,8 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-delay="300"
+                                    data-sal-duration="2000"
+                                    data-sal-delay="500"
                                     data-sal-easing="ease">
                                     <StaticImage 
                                         src="../images/nodejs.png"
@@ -241,7 +242,8 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-delay="300"
+                                    data-sal-duration="2000"
+                                    data-sal-delay="600"
                                     data-sal-easing="ease">
                                     <StaticImage 
                                         src="../images/redux.png"
@@ -253,7 +255,8 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-delay="300"
+                                    data-sal-duration="2000"
+                                    data-sal-delay="700"
                                     data-sal-easing="ease">
                                     <StaticImage 
                                         src="../images/gatsby.png"
@@ -265,7 +268,8 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-delay="300"
+                                    data-sal-duration="2000"
+                                    data-sal-delay="800"
                                     data-sal-easing="ease">
                                     <StaticImage 
                                         src="../images/vuejs.png"
@@ -289,13 +293,22 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                             placeholder="blurred"
                             layout="fixed"
                             width={100}
+                            data-sal="slide-up"
+                            data-sal-delay="300"
+                            data-sal-duration="2000"
+                            data-sal-easing="ease-out-back"
                         />
                     </div>
-                    <div className="not-prose relative bg-red-200 bg-stripes bg-stripes-white rounded-xl overflow-hidden ">
+                    <div className="not-prose relative bg-red-200 bg-stripes bg-stripes-white rounded-xl overflow-hidden"
+                        data-sal="flip-down"
+                        data-sal-duration="2000"
+                        data-sal-delay="300"
+                        data-sal-easing="ease-out-back">
                         <div className="relative rounded-xl overflow-auto p-8">
                             <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
+                                    data-sal-duration="2000"
                                     data-sal-delay="300"
                                     data-sal-easing="ease">
                                     <StaticImage 
@@ -308,7 +321,8 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-delay="300"
+                                    data-sal-duration="2000"
+                                    data-sal-delay="400"
                                     data-sal-easing="ease">
                                     <StaticImage 
                                         src="../images/nginx.png"
@@ -320,7 +334,8 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-delay="300"
+                                    data-sal-duration="2000"
+                                    data-sal-delay="500"
                                     data-sal-easing="ease">
                                     <StaticImage 
                                         src="../images/jenkins.png"
@@ -332,7 +347,8 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-delay="300"
+                                    data-sal-duration="2000"
+                                    data-sal-delay="600"
                                     data-sal-easing="ease">
                                     <StaticImage 
                                         src="../images/docker.png"
@@ -344,7 +360,8 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-delay="300"
+                                    data-sal-duration="2000"
+                                    data-sal-delay="700"
                                     data-sal-easing="ease">
                                     <StaticImage 
                                         src="../images/elasticbeanstalk.png"
@@ -356,7 +373,8 @@ Wordpress, PHP, Bootstrap, HTML5, Git, LAMP <br/>
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
-                                    data-sal-delay="300"
+                                    data-sal-duration="2000"
+                                    data-sal-delay="800"
                                     data-sal-easing="ease">
                                     <StaticImage 
                                         src="../images/s3buckets.png"
