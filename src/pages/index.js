@@ -290,7 +290,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                         data-sal-easing="ease-out-back">
                         <div className="relative rounded-xl overflow-auto p-8">
                             <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="300"
@@ -303,7 +303,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         width={70}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="400"
@@ -316,7 +316,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         width={75}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="500"
@@ -329,7 +329,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         width={50}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="600"
@@ -342,7 +342,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         width={60}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="700"
@@ -355,7 +355,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         width={50}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="800"
@@ -462,7 +462,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                         data-sal-easing="ease-out-back">
                         <div className="relative rounded-xl overflow-auto p-8">
                             <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="300"
@@ -472,10 +472,10 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         alt="apache Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={75}
+                                        width={55}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="400"
@@ -485,10 +485,10 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         alt="nginx Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={75}
+                                        width={60}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="500"
@@ -501,7 +501,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         width={75}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="600"
@@ -514,7 +514,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         width={75}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="700"
@@ -524,10 +524,10 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         alt="Docker Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={75}
+                                        width={55}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="800"
@@ -537,7 +537,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         alt="Docker Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={100}
+                                        width={75}
                                     />
                                 </div>
                             </div>
@@ -566,7 +566,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                         data-sal-easing="ease-out-back">
                         <div className="relative rounded-xl overflow-auto p-8">
                             <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="300"
@@ -579,7 +579,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         width={75}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="400"
@@ -589,7 +589,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         alt="Firebase Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={75}
+                                        width={60}
                                     />
                                 </div>
                             </div>
