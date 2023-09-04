@@ -191,13 +191,15 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                             width={100}
                         />
                     </div>
+
                     <div className="not-prose relative bg-light-blue-400 bg-stripes bg-stripes-white rounded-xl overflow-hidden border-light-blue-200 bg-light-blue-200 rounded-md"
                         data-sal="flip-down"
                         data-sal-duration="1000"
                         data-sal-easing="ease-out-back">
                         <div className="relative rounded-xl overflow-auto p-8">
                             <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+
+                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                 data-sal="slide-up"
                                 data-sal-duration="1500"
                                 data-sal-delay="300"
@@ -207,10 +209,11 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         alt="Php Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={75}
+                                        width={50}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+
+                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                 data-sal="slide-up"
                                 data-sal-duration="1500"
                                 data-sal-delay="400"
@@ -223,7 +226,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         width={75}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                 data-sal="slide-up"
                                 data-sal-duration="1500"
                                 data-sal-delay="500"
@@ -233,10 +236,10 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         alt="Php Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={75}
+                                        width={60}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="600"
@@ -249,7 +252,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         width={75}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="700"
@@ -278,7 +281,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                             alt="javascript Logo"
                             placeholder="blurred"
                             layout="fixed"
-                            width={100}
+                            height={100}
                         />
                     </div>
                     <div className="not-prose relative bg-green-400 bg-stripes bg-stripes-white rounded-xl overflow-hidden"
@@ -383,7 +386,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                             alt="CSS Logo"
                             placeholder="blurred"
                             layout="fixed"
-                            width={100}
+                            height={100}
                         />
                     </div>
                     <div className="not-prose relative bg-yellow-200 bg-stripes bg-stripes-white rounded-xl overflow-hidden"
@@ -392,7 +395,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                         data-sal-easing="ease-out-back">
                         <div className="relative rounded-xl overflow-auto p-8">
                             <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="300"
@@ -402,10 +405,10 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         alt="Bootstrap Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={75}
+                                        height={60}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="400"
@@ -415,10 +418,10 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         alt="Tailwind Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={75}
+                                        width={60}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="500"
@@ -428,7 +431,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                         alt="CSS Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={75}
+                                        height={60}
                                     />
                                 </div>
 
@@ -450,7 +453,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                             alt="Ubuntu Logo"
                             placeholder="blurred"
                             layout="fixed"
-                            width={100}
+                            height={100}
                         />
                     </div>
                     <div className="not-prose relative bg-red-200 bg-stripes bg-stripes-white rounded-xl overflow-hidden"
@@ -554,7 +557,7 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                             alt="Database Logo"
                             placeholder="blurred"
                             layout="fixed"
-                            width={100}
+                            height={100}
                         />
                     </div>
                     <div className="not-prose relative bg-orange-200 bg-stripes bg-stripes-white rounded-xl overflow-hidden"
