@@ -22,15 +22,17 @@ const Index = ({ data }) => {
 
                     <h2 className="flex flex-row flex-nowrap items-center my-8">
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
-                        <span className="flex-none block mx-4   px-4 py-2.5 text-xs leading-none font-medium uppercase bg-black text-white">
+                        <span className="flex-none block mx-4 px-4 py-2.5 text-m leading-none font-medium uppercase bg-red-700 text-white">
                             Resume
                         </span>
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
                     </h2>
 
+
+
                      <h2 className="flex flex-row flex-nowrap items-center my-8">
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
-                        <span className="flex-none block mx-4 px-4 py-2.5 text-xs leading-none font-medium uppercase bg-black text-white">
+                        <span className="flex-none block mx-4 px-4 py-2.5 text-m leading-none font-medium uppercase bg-red-700 text-white">
                             Technologies
                         </span>
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
@@ -45,10 +47,10 @@ const Index = ({ data }) => {
                             width={50}
                         />
                     </div>
-                    <div className="not-prose relative bg-slate-50 rounded-xl overflow-hidden ">
+                    <div className="not-prose relative bg-light-blue-400 bg-stripes bg-stripes-white rounded-xl overflow-hidden border-light-blue-200 bg-light-blue-200 rounded-md">
                         <div className="relative rounded-xl overflow-auto p-8">
                             <div className="flex justify-start space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
                                     <StaticImage 
                                         src="../images/symfony.png"
                                         alt="Php Logo"
@@ -57,7 +59,7 @@ const Index = ({ data }) => {
                                         width={50}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
                                     <StaticImage 
                                         src="../images/laravel.png"
                                         alt="Php Logo"
@@ -66,7 +68,7 @@ const Index = ({ data }) => {
                                         width={50}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
                                     <StaticImage 
                                         src="../images/codeignitor.png"
                                         alt="Php Logo"
@@ -75,7 +77,7 @@ const Index = ({ data }) => {
                                         width={50}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
                                     <StaticImage 
                                         src="../images/cakephp.png"
                                         alt="Php Logo"
@@ -84,7 +86,7 @@ const Index = ({ data }) => {
                                         width={50}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
                                     <StaticImage 
                                         src="../images/wordpress.png"
                                         alt="Php Logo"
@@ -109,10 +111,10 @@ const Index = ({ data }) => {
                             width={50}
                         />
                     </div>
-                    <div className="not-prose relative bg-slate-50 rounded-xl overflow-hidden ">
+                    <div className="not-prose relative bg-cyan-400 bg-stripes bg-stripes-white rounded-xl overflow-hidden ">
                         <div className="relative rounded-xl overflow-auto p-8">
                             <div className="flex justify-start space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
                                     <StaticImage 
                                         src="../images/angular.png"
                                         alt="angular Logo"
@@ -121,7 +123,7 @@ const Index = ({ data }) => {
                                         width={50}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
                                     <StaticImage 
                                         src="../images/react.png"
                                         alt="react Logo"
@@ -130,7 +132,7 @@ const Index = ({ data }) => {
                                         width={50}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
                                     <StaticImage 
                                         src="../images/nodejs.gif"
                                         alt="NodeJs Logo"
@@ -139,7 +141,7 @@ const Index = ({ data }) => {
                                         width={50}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
                                     <StaticImage 
                                         src="../images/redux.png"
                                         alt="Redux Logo"
@@ -148,7 +150,7 @@ const Index = ({ data }) => {
                                         width={50}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
                                     <StaticImage 
                                         src="../images/gatsby.png"
                                         alt="gatsby Logo"
@@ -157,7 +159,7 @@ const Index = ({ data }) => {
                                         width={50}
                                     />
                                 </div>
-                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg">
+                                <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white">
                                     <StaticImage 
                                         src="../images/vuejs.png"
                                         alt="VueJs Logo"
