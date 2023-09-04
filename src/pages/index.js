@@ -8,16 +8,23 @@ const Index = ({ data }) => {
         site: {
             siteMetadata: { name, role },
         },
+        allDataJson: {
+            edges: {
+                php,
+                resume
+            }
+        }
     } = data;
 
+    console.log(data.allDataJson.edges[0].node);
     const phpData = [
         {
             imageName:"php.png",
             alt:"Php Logo",
         },
         {
-            imageName:"php.png",
-            alt:"Php Logo",
+            imageName:"javascript.png",
+            alt:"javascript Logo",
         },
 
     ];
@@ -41,6 +48,19 @@ const Index = ({ data }) => {
                         </span>
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
                     </h2>
+
+{/*{
+    data.jsonData.map(({date, company, description}, index) => {
+    return (
+        <div key={date} className="flex flex-row flex-nowrap">
+            <span>{ date }</span>
+            <span>{ company }</span>
+            <span>{ description }</span>
+        </div>
+    )
+})
+}*/}
+
 
 
 <div data-sal="slide-right"
@@ -612,17 +632,17 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
 
 
 
-{
-    phpData.map(({imageName, alt}, index) => {
+{/*{
+    phpData.map(({image, alt}, index) => {
     return (
-        <div className="flex flex-row flex-nowrap"><span>heere1</span>
+        <div key={image} className="flex flex-row flex-nowrap"><span>heere1</span>
             <span>{ index }</span>
             <span>{ alt }</span>
-            <span>{ imageName }</span>
+            <span>{ image }</span>
         </div>
     )
 })
-}
+}*/}
             </div>
 
 
@@ -634,14 +654,29 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
 }
 
 export const query = graphql`
-  {
+{
     site {
         siteMetadata {
             name
             role
         }
     }
-  }
+    allDataJson {
+        edges {
+            node {
+                resume {
+                    date
+                    company
+                    description
+                }
+                php {
+                    image
+                    alt
+                }
+            }
+        }
+    }
+}
   `
 
 export default Index
