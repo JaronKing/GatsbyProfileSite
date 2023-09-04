@@ -15,19 +15,8 @@ const Index = ({ data }) => {
             }
         }
     } = data;
-
+    console.log(php);
     console.log(data.allDataJson.edges[0].node);
-    const phpData = [
-        {
-            imageName:"php.png",
-            alt:"Php Logo",
-        },
-        {
-            imageName:"javascript.png",
-            alt:"javascript Logo",
-        },
-
-    ];
 
     return (
         <>
@@ -50,7 +39,7 @@ const Index = ({ data }) => {
                     </h2>
 
 {/*{
-    data.jsonData.map(({date, company, description}, index) => {
+    data.allDataJson.edges[0].node.resume.map(({date, company, description}, index) => {
     return (
         <div key={date} className="flex flex-row flex-nowrap">
             <span>{ date }</span>
@@ -69,11 +58,12 @@ const Index = ({ data }) => {
     data-sal-easing="ease-out-back">
     <div className="relative flex flex-row">
         <div className="absolute left-0 text-base">
-            Luxer One, Sacramento, CA
+            Luxer One,<br/> Sacramento, CA
         </div>
         <div className="absolute right-0 text-base">
             July ‘17 to September ‘19
         </div>
+        <br/>
         <br/>
     </div>
     <div className="text-sm">
@@ -87,11 +77,12 @@ const Index = ({ data }) => {
     data-sal-easing="ease-out-back">
     <div className="relative flex flex-row">
         <div className="absolute left-0 text-base">
-            Dynamic Vision, Temecula, CA
+            Dynamic Vision,<br/> Temecula, CA
         </div>
         <div className="absolute right-0 text-base">
             Feb. ’16 to May `17
         </div>
+        <br/>
         <br/>
     </div>
     <div className="text-sm">
@@ -105,11 +96,12 @@ Laravel 4, NodeJS, Firebase, Angular 2, Bootstrap 3, Git, JIRA, LAMP, MySQL, NOS
     data-sal-easing="ease-out-back">
     <div className="relative flex flex-row">
         <div className="absolute left-0 text-base">
-            Freelance, San Diego, CA
+            Freelance,<br/> San Diego, CA
         </div>
         <div className="absolute right-0 text-base">
             Mar. ’15 to Feb. ‘16
         </div>
+        <br/>
         <br/>
     </div>
     <div className="text-sm">
@@ -123,11 +115,12 @@ Symfony 2, Laravel 4, Bootstrap 3, Javascript, Git, LEMP, LAMP.
     data-sal-easing="ease-out-back">
     <div className="relative flex flex-row">
         <div className="absolute left-0 text-base">
-            AP Media, San Diego, CA
+            AP Media,<br/> San Diego, CA
         </div>
         <div className="absolute right-0 text-base">
             Mar. ’14 to Mar. ‘15
         </div>
+        <br/>
         <br/>
     </div>
     <div className="text-sm">
@@ -141,11 +134,12 @@ Symfony2, Codeignitor, Git, HTML5, JQuery, Twig, Bootstrap 3, eCommerce, LEMP an
     data-sal-easing="ease-out-back">
     <div className="relative flex flex-row">
         <div className="absolute left-0 text-base">
-            Adconion Direct, San Diego, CA
+            Adconion Direct,<br/> San Diego, CA
         </div>
         <div className="absolute right-0 text-base">
             Dec. ’12 to Mar. ‘14
         </div>
+        <br/>
         <br/>
     </div>
     <div className="text-sm">
