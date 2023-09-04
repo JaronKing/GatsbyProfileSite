@@ -34,9 +34,10 @@ const Index = ({ data }) => {
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
                         <span 
                             className="flex-none block mx-4 px-4 py-2.5 text-m leading-none font-medium uppercase bg-red-700 text-white" 
-                            data-sal="flip-up"
+                            data-sal="zoom-in"
                             data-sal-delay="300"
-                            data-sal-easing="ease">
+                            data-sal-duration="2000"
+                            data-sal-easing="ease-out-back">
                             Technologies
                         </span>
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
@@ -45,7 +46,8 @@ const Index = ({ data }) => {
                     <div className="flex flex-row justify-center"
                         data-sal="slide-up"
                         data-sal-delay="300"
-                        data-sal-easing="ease">
+                        data-sal-duration="2000"
+                        data-sal-easing="ease-out-back">
                         <StaticImage 
                             src="../images/php.png"
                             alt="Php Logo"
@@ -59,8 +61,9 @@ const Index = ({ data }) => {
                             <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                 data-sal="slide-up"
+                        data-sal-duration="2000"
                         data-sal-delay="300"
-                        data-sal-easing="ease">
+                        data-sal-easing="ease-out-back">
                                     <StaticImage 
                                         src="../images/symfony.png"
                                         alt="Php Logo"
@@ -71,8 +74,9 @@ const Index = ({ data }) => {
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                 data-sal="slide-up"
+                        data-sal-duration="2000"
                         data-sal-delay="300"
-                        data-sal-easing="ease">
+                        data-sal-easing="ease-out-back">
                                     <StaticImage 
                                         src="../images/laravel.png"
                                         alt="Php Logo"
@@ -83,8 +87,9 @@ const Index = ({ data }) => {
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                 data-sal="slide-up"
+                        data-sal-duration="2000"
                         data-sal-delay="300"
-                        data-sal-easing="ease">
+                        data-sal-easing="ease-out-back">
                                     <StaticImage 
                                         src="../images/codeignitor.png"
                                         alt="Php Logo"
@@ -95,8 +100,9 @@ const Index = ({ data }) => {
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
+                        data-sal-duration="2000"
                                     data-sal-delay="300"
-                                    data-sal-easing="ease">
+                                    data-sal-easing="ease-out-back">
                                     <StaticImage 
                                         src="../images/cakephp.png"
                                         alt="Php Logo"
@@ -107,8 +113,9 @@ const Index = ({ data }) => {
                                 </div>
                                 <div className="w-14 h-14 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
+                        data-sal-duration="2000"
                                     data-sal-delay="300"
-                                    data-sal-easing="ease">
+                                    data-sal-easing="ease-out-back">
                                     <StaticImage 
                                         src="../images/wordpress.png"
                                         alt="Php Logo"
