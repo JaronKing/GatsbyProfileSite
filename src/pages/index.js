@@ -309,11 +309,11 @@ Created and developed Adobe Captivate courses used for University staff.  Develo
                                     data-sal-delay="400"
                                     data-sal-easing="ease">
                                     <StaticImage 
-                                        src="../images/react.png"
-                                        alt="react Logo"
+                                        src="../images/reactjs.png"
+                                        alt="reactjs Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={75}
+                                        width={55}
                                     />
                                 </div>
                                 <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
