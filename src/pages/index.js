@@ -10,13 +10,12 @@ const Index = ({ data }) => {
         },
         allDataJson: {
             edges: {
-                php,
-                resume
+                0: {
+                    node: { resume }
+                }
             }
         }
     } = data;
-    console.log(php);
-    console.log(data.allDataJson.edges[0].node);
 
     return (
         <>
@@ -38,133 +37,28 @@ const Index = ({ data }) => {
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
                     </h2>
 
-{/*{
-    data.allDataJson.edges[0].node.resume.map(({date, company, description}, index) => {
-    return (
-        <div key={date} className="flex flex-row flex-nowrap">
-            <span>{ date }</span>
-            <span>{ company }</span>
-            <span>{ description }</span>
-        </div>
-    )
-})
-}*/}
-
-
-
-<div data-sal="slide-right"
-    data-sal-duration="700"
-    data-sal-delay="100"
-    data-sal-easing="ease-out-back">
-    <div className="relative flex flex-row">
-        <div className="absolute left-0 text-base">
-            Luxer One,<br/> Sacramento, CA
-        </div>
-        <div className="absolute right-0 text-base">
-            July ‘17 to September ‘19
-        </div>
-        <br/>
-        <br/>
-    </div>
-    <div className="text-sm">
-        Improved and maintained CakePhp 2 application and integration with dozens of 3rd party applications.<br/>
-        CakePhp 2, JavaScript, MySQL, VueJS, Mustache, AWS and Google buckets/ remote storage
-    </div>
-</div>
-<div data-sal="slide-right"
-    data-sal-duration="700"
-    data-sal-delay="150"
-    data-sal-easing="ease-out-back">
-    <div className="relative flex flex-row">
-        <div className="absolute left-0 text-base">
-            Dynamic Vision,<br/> Temecula, CA
-        </div>
-        <div className="absolute right-0 text-base">
-            Feb. ’16 to May `17
-        </div>
-        <br/>
-        <br/>
-    </div>
-    <div className="text-sm">
-        Migrated Laravel 2 application to Laravel 4 while also implementing Angular.  Also helped with migrating terabytes of data from MicrosoftSQL to MySQL.<br/>
-Laravel 4, NodeJS, Firebase, Angular 2, Bootstrap 3, Git, JIRA, LAMP, MySQL, NOSQL
-    </div>
-</div>
-<div data-sal="slide-right"
-    data-sal-duration="700"
-    data-sal-delay="200"
-    data-sal-easing="ease-out-back">
-    <div className="relative flex flex-row">
-        <div className="absolute left-0 text-base">
-            Freelance,<br/> San Diego, CA
-        </div>
-        <div className="absolute right-0 text-base">
-            Mar. ’15 to Feb. ‘16
-        </div>
-        <br/>
-        <br/>
-    </div>
-    <div className="text-sm">
-Projects ranged from CMS blogs to Craigslist like applications, ItsTheGuac, StatEyeConsult, BestOfWebflix<br/>
-Symfony 2, Laravel 4, Bootstrap 3, Javascript, Git, LEMP, LAMP.
-    </div>
-</div>
-<div data-sal="slide-right"
-    data-sal-duration="700"
-    data-sal-delay="250"
-    data-sal-easing="ease-out-back">
-    <div className="relative flex flex-row">
-        <div className="absolute left-0 text-base">
-            AP Media,<br/> San Diego, CA
-        </div>
-        <div className="absolute right-0 text-base">
-            Mar. ’14 to Mar. ‘15
-        </div>
-        <br/>
-        <br/>
-    </div>
-    <div className="text-sm">
-Facebook advertising platform that would grow to support emails and websites.<br/>
-Symfony2, Codeignitor, Git, HTML5, JQuery, Twig, Bootstrap 3, eCommerce, LEMP and LAMP.
-    </div>
-</div>
-<div data-sal="slide-right"
-    data-sal-duration="700"
-    data-sal-delay="300"
-    data-sal-easing="ease-out-back">
-    <div className="relative flex flex-row">
-        <div className="absolute left-0 text-base">
-            Adconion Direct,<br/> San Diego, CA
-        </div>
-        <div className="absolute right-0 text-base">
-            Dec. ’12 to Mar. ‘14
-        </div>
-        <br/>
-        <br/>
-    </div>
-    <div className="text-sm">
-Git, Powershell, Email Marketing, Port25 MTA and Creative generation
-    </div>
-</div>
-<div data-sal="slide-right"
-    data-sal-duration="700"
-    data-sal-delay="350"
-    data-sal-easing="ease-out-back">
-    <div className="relative flex flex-row">
-        <div className="absolute left-0 text-base">
-            Regents of the University of California<br/> Davis, CA
-        </div>
-        <div className="absolute right-0 text-base">
-            Sept. ’10 to June ‘12
-        </div>
-        <br/>
-        <br/>
-    </div>
-    <div className="text-sm">
-Created and developed Adobe Captivate courses used for University staff.  Developed and deployed websites based on WordPress CMS, and other PHP web applications.
-    </div>
-</div>
-
+                    {
+                        resume.map(({date, company, description}, index) => {
+                            return (
+                                <div
+                                    key={ index + "_resume" }
+                                    data-sal="slide-right"
+                                    data-sal-duration="700"
+                                    data-sal-delay={ index * 100 + 100 }
+                                    data-sal-easing="ease-out-back">
+                                    <div className="relative flex flex-row">
+                                        <div className="absolute left-0 text-base" dangerouslySetInnerHTML={{__html: company}}></div>
+                                        <div className="absolute right-0 text-base">
+                                            { date }
+                                        </div>
+                                    <br/>
+                                    <br/>
+                                </div>
+                                <div className="text-sm" dangerouslySetInnerHTML={{__html: description}}></div>
+                            </div>
+                            )
+                        })
+                    }
 
                      <h2 className="flex flex-row flex-nowrap items-center my-8">
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
@@ -665,10 +559,6 @@ export const query = graphql`
                     date
                     company
                     description
-                }
-                php {
-                    image
-                    alt
                 }
             }
         }
