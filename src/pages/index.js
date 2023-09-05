@@ -23,7 +23,7 @@ const Index = ({ data }) => {
             <div className="w-full max-w-xl px-10 py-8 mx-auto bg-white rounded-lg shadow-xl">
                 <div className='max-w-xl mx-auto space-y-6 '>
                     <h1 className="text-center text-3xl">
-                       Jaron King
+                       Jaron J King
                     </h1>
                         
 
@@ -356,7 +356,7 @@ const Index = ({ data }) => {
                         data-sal-easing="ease-out-back">
                         <div className="relative rounded-xl overflow-auto p-8">
                             <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
-                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="300"
@@ -366,10 +366,10 @@ const Index = ({ data }) => {
                                         alt="apache Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={55}
+                                        width={65}
                                     />
                                 </div>
-                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="400"
@@ -382,7 +382,7 @@ const Index = ({ data }) => {
                                         width={60}
                                     />
                                 </div>
-                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="500"
@@ -395,20 +395,7 @@ const Index = ({ data }) => {
                                         width={65}
                                     />
                                 </div>
-                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
-                                    data-sal="slide-up"
-                                    data-sal-duration="1500"
-                                    data-sal-delay="600"
-                                    data-sal-easing="ease">
-                                    <StaticImage 
-                                        src="../images/docker.png"
-                                        alt="Docker Logo"
-                                        placeholder="blurred"
-                                        layout="fixed"
-                                        width={65}
-                                    />
-                                </div>
-                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="700"
@@ -418,10 +405,10 @@ const Index = ({ data }) => {
                                         alt="Docker Logo"
                                         placeholder="blurred"
                                         layout="fixed"
-                                        width={55}
+                                        width={65}
                                     />
                                 </div>
-                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
+                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                     data-sal="slide-up"
                                     data-sal-duration="1500"
                                     data-sal-delay="800"
@@ -504,8 +491,6 @@ const Index = ({ data }) => {
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
                     </h2>
                 </div>
-
-
 
             </div>
         </Layout>
