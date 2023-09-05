@@ -493,22 +493,6 @@ const Index = ({ data }) => {
                     </div>
                 </div>
 
-
-
-                <div>
-                    <h2 className="flex flex-row flex-nowrap items-center my-8">
-                        <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
-                        <span className="flex-none block mx-4 px-4 py-2.5 leading-none font-medium uppercase bg-red-700 text-white"data-sal="zoom-in"
-                            data-sal-duration="1000"
-                            data-sal-easing="ease-out-back">
-                            Projects
-                        </span>
-                        <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
-                    </h2>
-                </div>
-
-
-
                 <div>
                     <h2 className="flex flex-row flex-nowrap items-center my-8">
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
@@ -520,6 +504,9 @@ const Index = ({ data }) => {
                         <span className="flex-grow block border-t border-black" aria-hidden="true" role="presentation"></span>
                     </h2>
                 </div>
+
+
+
             </div>
         </Layout>
     </>
