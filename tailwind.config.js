@@ -40,6 +40,8 @@ module.exports = {
         cyan: colors.cyan,
         red: colors.red,
         green: colors.green,
+        'linkedin':'#0077b5',
+        'github':'#333',
       },
     },
   },
