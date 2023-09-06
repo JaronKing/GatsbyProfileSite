@@ -99,6 +99,30 @@ const Index = ({ data }) => {
                         data-sal-easing="ease-out-back">
                         <div className="relative rounded-xl overflow-auto p-8">
                             <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
+
+                                {/*{
+                                    resume.map(({date, company, description}, index) => {
+                                        return (
+                                            <div
+                                                key={ index + "_resume" }
+                                                data-sal="slide-right"
+                                                data-sal-duration="700"
+                                                data-sal-delay={ index * 100 + 100 }
+                                                data-sal-easing="ease-out-back">
+                                                <div className="relative flex flex-row">
+                                                    <div className="absolute left-0 text-base" dangerouslySetInnerHTML={{__html: company}}></div>
+                                                    <div className="absolute right-0 text-base">
+                                                        { date }
+                                                    </div>
+                                                <br/>
+                                                <br/>
+                                            </div>
+                                            <div className="text-sm" dangerouslySetInnerHTML={{__html: description}}></div>
+                                        </div>
+                                        )
+                                    })
+                                }*/}
+
                                 <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                 data-sal="slide-up"
                                 data-sal-duration="1500"
