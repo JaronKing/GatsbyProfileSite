@@ -33,32 +33,7 @@
     ],
     "php": [
         {
-            "title": "php",
-            "featuredImgUrl" : "./images/php.png"
-        }
-    ],
-    "javascript": [
-        {
-            "title": "Angular Logo",
-            "featuredImgUrl": "https://imgur.com/6UKpsx5"
-        }
-    ],
-    "ubuntu": [
-        {
-            "title": "Angular Logo",
-            "featuredImgUrl": "https://imgur.com/6UKpsx5"
-        }
-    ],
-    "css": [
-        {
-            "title": "Angular Logo",
-            "featuredImgUrl": "https://imgur.com/6UKpsx5"
-        }
-    ],
-    "databases": [
-        {
-            "title": "Angular Logo",
-            "featuredImgUrl": "https://imgur.com/6UKpsx5"
+            "imagePath" : "./src/images/php.png"
         }
     ]
 }

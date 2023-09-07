@@ -1,17 +1,15 @@
-import React from "react" 
+import React, {useState, useEffect} from "react"
 import { graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/Layout"
+import TechonologyIcon from "../components/TechnologyIcon"
 
 const Index = ({ data }) => {
     const {
-        // site: {
-        //     siteMetadata: { name, role },
-        // },
         allDataJson: {
             edges: {
                 0: {
-                    node: { resume }
+                    node: { resume, php }
                 }
             }
         }
@@ -24,6 +22,11 @@ const Index = ({ data }) => {
     const linkedinLink = function() {
         window.location.href="https://www.linkedin.com/in/jaron-king-94a00336/"
     }
+
+    const [scrolled, setScrolled] = useState(false);
+    useEffect(() => {
+        console.log('mount');
+    }, []);
 
     return (
         <>
@@ -100,28 +103,15 @@ const Index = ({ data }) => {
                         <div className="relative rounded-xl overflow-auto p-8">
                             <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
 
-                                {/*{
-                                    resume.map(({date, company, description}, index) => {
+                                {
+                                    php.map(({data}, index) => {
                                         return (
-                                            <div
-                                                key={ index + "_resume" }
-                                                data-sal="slide-right"
-                                                data-sal-duration="700"
-                                                data-sal-delay={ index * 100 + 100 }
-                                                data-sal-easing="ease-out-back">
-                                                <div className="relative flex flex-row">
-                                                    <div className="absolute left-0 text-base" dangerouslySetInnerHTML={{__html: company}}></div>
-                                                    <div className="absolute right-0 text-base">
-                                                        { date }
-                                                    </div>
-                                                <br/>
-                                                <br/>
-                                            </div>
-                                            <div className="text-sm" dangerouslySetInnerHTML={{__html: description}}></div>
-                                        </div>
+                                            <TechonologyIcon
+                                                data
+                                            />
                                         )
                                     })
-                                }*/}
+                                }
 
                                 <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
                                 data-sal="slide-up"
@@ -579,6 +569,10 @@ export const query = graphql`
                     date
                     company
                     description
+                }
+                php {
+                    title
+                    featuredImgUrl
                 }
             }
         }

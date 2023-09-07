@@ -33,9 +33,16 @@ module.exports = {
         },
         {
             resolve: `gatsby-source-filesystem`,
-                options: {
-                    path: `./src/data`,
-                    typeName: `Json`,
+            options: {
+                path: `./src/data`,
+                typeName: `Json`,
+            },
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                path: `./src/images`,
+                typeName: `png`,
             },
         },
     ]
