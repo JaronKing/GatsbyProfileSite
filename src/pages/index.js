@@ -26,6 +26,7 @@ const Index = ({ data }) => {
     const [scrolled, setScrolled] = useState(false);
     useEffect(() => {
         console.log('mount');
+
     }, []);
 
     return (
