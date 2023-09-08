@@ -33,20 +33,56 @@
     ],
     "php": [
         {
-            "title": "php",
-            "featuredImgUrl" : "./images/php.png"
+            "title": "symfony",
+            "featuredImgUrl" : "/symfony.png"
+        },
+        {
+            "title": "laravel",
+            "featuredImgUrl" : "/laravel.png"
+        },
+        {
+            "title": "codeignitor",
+            "featuredImgUrl" : "/codeignitor.png"
+        },
+        {
+            "title": "cakephp",
+            "featuredImgUrl" : "/cakephp.png"
+        },
+        {
+            "title": "wordpress",
+            "featuredImgUrl" : "/wordpress.png"
         }
     ],
     "javascript": [
         {
             "title": "Angular Logo",
-            "featuredImgUrl": "https://imgur.com/6UKpsx5"
+            "featuredImgUrl": "/angular.png"
+        },
+        {
+            "title": "ReactJs Logo",
+            "featuredImgUrl": "/reactjs.png"
+        },
+        {
+            "title": "NodeJs Logo",
+            "featuredImgUrl": "/nodejs.png"
+        },
+        {
+            "title": "Redux Logo",
+            "featuredImgUrl": "/redux.png"
+        },
+        {
+            "title": "Gatsby Logo",
+            "featuredImgUrl": "/gatsby.png"
+        },
+        {
+            "title": "vuejs Logo",
+            "featuredImgUrl": "/vuejs.png"
         }
     ],
     "ubuntu": [
         {
             "title": "Angular Logo",
-            "featuredImgUrl": "https://imgur.com/6UKpsx5"
+            "featuredImgUrl": "/angular.png"
         }
     ],
     "css": [

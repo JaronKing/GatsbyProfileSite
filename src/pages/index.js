@@ -9,12 +9,13 @@ const Index = ({ data }) => {
         allDataJson: {
             edges: {
                 0: {
-                    node: { resume, php }
+                    node: { resume, php, javascript, ubuntu, css, databases }
                 }
             }
         }
     } = data;
 
+    console.log(javascript);
     const githubLink = function() {
         window.location.href="https://github.com/JaronKing"
     }
@@ -95,89 +96,23 @@ const Index = ({ data }) => {
                             width={100}
                         />
                     </div>
-
                     <div className="not-prose relative bg-light-blue-400 bg-stripes bg-stripes-white rounded-xl overflow-hidden border-light-blue-200 bg-light-blue-200 rounded-md"
                         data-sal="flip-down"
                         data-sal-duration="1000"
                         data-sal-easing="ease-out-back">
                         <div className="relative rounded-xl overflow-auto p-8">
                             <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
-
                                 {
-                                    php.map(({data}, index) => {
+                                    php.map((data, index) => {
                                         return (
                                             <TechonologyIcon
-                                                data
+                                                key={index  + "_php" }
+                                                {...data}
+                                                index={index}
                                             />
                                         )
                                     })
                                 }
-
-                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
-                                data-sal="slide-up"
-                                data-sal-duration="1500"
-                                data-sal-delay="300"
-                                data-sal-easing="ease-out-back">
-                                    <StaticImage 
-                                        src="../images/symfony.png"
-                                        alt="Php Logo"
-                                        placeholder="blurred"
-                                        layout="fixed"
-                                        width={50}
-                                    />
-                                </div>
-                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
-                                data-sal="slide-up"
-                                data-sal-duration="1500"
-                                data-sal-delay="400"
-                                data-sal-easing="ease-out-back">
-                                    <StaticImage 
-                                        src="../images/laravel.png"
-                                        alt="Php Logo"
-                                        placeholder="blurred"
-                                        layout="fixed"
-                                        width={75}
-                                    />
-                                </div>
-                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
-                                data-sal="slide-up"
-                                data-sal-duration="1500"
-                                data-sal-delay="500"
-                                data-sal-easing="ease-out-back">
-                                    <StaticImage 
-                                        src="../images/codeignitor.png"
-                                        alt="Php Logo"
-                                        placeholder="blurred"
-                                        layout="fixed"
-                                        width={60}
-                                    />
-                                </div>
-                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
-                                    data-sal="slide-up"
-                                    data-sal-duration="1500"
-                                    data-sal-delay="600"
-                                    data-sal-easing="ease-out-back">
-                                    <StaticImage 
-                                        src="../images/cakephp.png"
-                                        alt="Php Logo"
-                                        placeholder="blurred"
-                                        layout="fixed"
-                                        width={75}
-                                    />
-                                </div>
-                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
-                                    data-sal="slide-up"
-                                    data-sal-duration="1500"
-                                    data-sal-delay="700"
-                                    data-sal-easing="ease-out-back">
-                                    <StaticImage 
-                                        src="../images/wordpress.png"
-                                        alt="Php Logo"
-                                        placeholder="blurred"
-                                        layout="fixed"
-                                        width={75}
-                                    />
-                                </div>
                             </div>
                         </div>
                         <div className="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5"></div>
@@ -202,91 +137,21 @@ const Index = ({ data }) => {
                         data-sal-easing="ease-out-back">
                         <div className="relative rounded-xl overflow-auto p-8">
                             <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
-                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
-                                    data-sal="slide-up"
-                                    data-sal-duration="1500"
-                                    data-sal-delay="300"
-                                    data-sal-easing="ease">
-                                    <StaticImage 
-                                        src="../images/angular.png"
-                                        alt="angular Logo"
-                                        placeholder="blurred"
-                                        layout="fixed"
-                                        width={70}
-                                    />
-                                </div>
-                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
-                                    data-sal="slide-up"
-                                    data-sal-duration="1500"
-                                    data-sal-delay="400"
-                                    data-sal-easing="ease">
-                                    <StaticImage 
-                                        src="../images/reactjs.png"
-                                        alt="reactjs Logo"
-                                        placeholder="blurred"
-                                        layout="fixed"
-                                        width={55}
-                                    />
-                                </div>
-                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
-                                    data-sal="slide-up"
-                                    data-sal-duration="1500"
-                                    data-sal-delay="500"
-                                    data-sal-easing="ease">
-                                    <StaticImage 
-                                        src="../images/nodejs.png"
-                                        alt="NodeJs Logo"
-                                        placeholder="blurred"
-                                        layout="fixed"
-                                        width={50}
-                                    />
-                                </div>
-                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
-                                    data-sal="slide-up"
-                                    data-sal-duration="1500"
-                                    data-sal-delay="600"
-                                    data-sal-easing="ease">
-                                    <StaticImage 
-                                        src="../images/redux.png"
-                                        alt="Redux Logo"
-                                        placeholder="blurred"
-                                        layout="fixed"
-                                        width={60}
-                                    />
-                                </div>
-                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
-                                    data-sal="slide-up"
-                                    data-sal-duration="1500"
-                                    data-sal-delay="700"
-                                    data-sal-easing="ease">
-                                    <StaticImage 
-                                        src="../images/gatsby.png"
-                                        alt="gatsby Logo"
-                                        placeholder="blurred"
-                                        layout="fixed"
-                                        width={50}
-                                    />
-                                </div>
-                                <div className="w-16 h-16 rounded-lg flex items-center justify-center shadow-lg bg-white"
-                                    data-sal="slide-up"
-                                    data-sal-duration="1500"
-                                    data-sal-delay="800"
-                                    data-sal-easing="ease">
-                                    <StaticImage 
-                                        src="../images/vuejs.png"
-                                        alt="VueJs Logo"
-                                        placeholder="blurred"
-                                        layout="fixed"
-                                        width={60}
-                                    />
-                                </div>
+                                {
+                                    javascript.map((data, index) => {
+                                        return (
+                                            <TechonologyIcon
+                                                key={index + "_javascript" }
+                                                {...data}
+                                                index={index}
+                                            />
+                                        )
+                                    })
+                                }
                             </div>
                         </div>
-
                         <div className="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5"></div>
                     </div>
-
-
 
                     <div className="flex flex-row justify-center"
                         data-sal="slide-up"
@@ -571,6 +436,22 @@ export const query = graphql`
                     description
                 }
                 php {
+                    title
+                    featuredImgUrl
+                }
+                javascript {
+                    title
+                    featuredImgUrl
+                }
+                ubuntu {
+                    title
+                    featuredImgUrl
+                }
+                css {
+                    title
+                    featuredImgUrl
+                }
+                databases {
                     title
                     featuredImgUrl
                 }
