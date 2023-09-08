@@ -6,6 +6,7 @@
     max-width: 60px;
 }
 
+/*Fix for Firefox browser*/
 .resume-entry-company {
     height:55px;
 }

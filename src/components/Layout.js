@@ -13,16 +13,15 @@ const Layout = ({ children }) => {
         <div>
             <Header/>
             <main className="flex min-h-screen">
-
-                <div className="context p-6">
-                    { children }
-                </div>
-
-                <div className="area">
+<div className="area">
                     <ul className="circles">
                         { rows }
                         </ul>
                 </div>
+                <div className="context p-6">
+                    { children }
+                </div>
+
             </main>
             <Footer/>
         </div>
