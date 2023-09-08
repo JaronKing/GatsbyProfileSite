@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
             <Header/>
             <main className="flex min-h-screen">
 
-                <div className="context">
+                <div className="context p-6">
                     { children }
                 </div>
 
