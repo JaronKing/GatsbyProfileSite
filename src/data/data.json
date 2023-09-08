@@ -56,7 +56,7 @@
     "javascript": [
         {
             "title": "Angular Logo",
-            "featuredImgUrl": "/angular.png"
+            "featuredImgUrl": "./angular.png"
         },
         {
             "title": "ReactJs Logo",
@@ -81,20 +81,48 @@
     ],
     "ubuntu": [
         {
-            "title": "Angular Logo",
-            "featuredImgUrl": "/angular.png"
+            "title": "Apache Logo",
+            "featuredImgUrl": "/apache.png"
+        },
+        {
+            "title": "Nginx Logo",
+            "featuredImgUrl": "/nginx.png"
+        },
+        {
+            "title": "Jenkins Logo",
+            "featuredImgUrl": "/jenkins.png"
+        },
+        {
+            "title": "Elastic Beanstalk Logo",
+            "featuredImgUrl": "/elasticbeanstalk.png"
+        },
+        {
+            "title": "S3 Buckets Logo",
+            "featuredImgUrl": "/s3buckets.png"
         }
     ],
     "css": [
         {
-            "title": "Angular Logo",
-            "featuredImgUrl": "https://imgur.com/6UKpsx5"
+            "title": "Bootstrap Logo",
+            "featuredImgUrl": "/bootstrap.png"
+        },
+        {
+            "title": "Tailwind Logo",
+            "featuredImgUrl": "/tailwind.png"
+        },
+        {
+            "title": "CSS Logo",
+            "featuredImgUrl": "/css.png"
         }
     ],
     "databases": [
         {
-            "title": "Angular Logo",
-            "featuredImgUrl": "https://imgur.com/6UKpsx5"
+            "title": "MySQL Logo",
+            "featuredImgUrl": "/mysql.png"
+        },
+        {
+            "title": "Firebase Logo",
+            "featuredImgUrl": "/firebase.png"
         }
     ]
 }

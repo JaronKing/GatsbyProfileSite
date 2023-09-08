@@ -15,7 +15,6 @@ const Index = ({ data }) => {
         }
     } = data;
 
-    console.log(javascript);
     const githubLink = function() {
         window.location.href="https://github.com/JaronKing"
     }
@@ -172,49 +171,19 @@ const Index = ({ data }) => {
                         data-sal-easing="ease-out-back">
                         <div className="relative rounded-xl overflow-auto p-8">
                             <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
-                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
-                                    data-sal="slide-up"
-                                    data-sal-duration="1500"
-                                    data-sal-delay="300"
-                                    data-sal-easing="ease">
-                                    <StaticImage
-                                        src="../images/bootstrap.png"
-                                        alt="Bootstrap Logo"
-                                        placeholder="blurred"
-                                        layout="fixed"
-                                        height={60}
-                                    />
-                                </div>
-                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
-                                    data-sal="slide-up"
-                                    data-sal-duration="1500"
-                                    data-sal-delay="400"
-                                    data-sal-easing="ease">
-                                    <StaticImage
-                                        src="../images/tailwind.png"
-                                        alt="Tailwind Logo"
-                                        placeholder="blurred"
-                                        layout="fixed"
-                                        width={60}
-                                    />
-                                </div>
-                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
-                                    data-sal="slide-up"
-                                    data-sal-duration="1500"
-                                    data-sal-delay="500"
-                                    data-sal-easing="ease">
-                                    <StaticImage
-                                        src="../images/css.png"
-                                        alt="CSS Logo"
-                                        placeholder="blurred"
-                                        layout="fixed"
-                                        height={60}
-                                    />
-                                </div>
-
+                                {
+                                    css.map((data, index) => {
+                                        return (
+                                            <TechonologyIcon
+                                                key={index + "_css" }
+                                                {...data}
+                                                index={index}
+                                            />
+                                        )
+                                    })
+                                }
                             </div>
                         </div>
-
                         <div className="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5"></div>
                     </div>
 
@@ -237,71 +206,17 @@ const Index = ({ data }) => {
                         data-sal-easing="ease-out-back">
                         <div className="relative rounded-xl overflow-auto p-8">
                             <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
-                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
-                                    data-sal="slide-up"
-                                    data-sal-duration="1500"
-                                    data-sal-delay="300"
-                                    data-sal-easing="ease">
-                                    <StaticImage 
-                                        src="../images/apache.png"
-                                        alt="apache Logo"
-                                        placeholder="blurred"
-                                        layout="fixed"
-                                        width={65}
-                                    />
-                                </div>
-                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
-                                    data-sal="slide-up"
-                                    data-sal-duration="1500"
-                                    data-sal-delay="400"
-                                    data-sal-easing="ease">
-                                    <StaticImage 
-                                        src="../images/nginx.png"
-                                        alt="nginx Logo"
-                                        placeholder="blurred"
-                                        layout="fixed"
-                                        width={60}
-                                    />
-                                </div>
-                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
-                                    data-sal="slide-up"
-                                    data-sal-duration="1500"
-                                    data-sal-delay="500"
-                                    data-sal-easing="ease">
-                                    <StaticImage 
-                                        src="../images/jenkins.png"
-                                        alt="Jenkins Logo"
-                                        placeholder="blurred"
-                                        layout="fixed"
-                                        width={65}
-                                    />
-                                </div>
-                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
-                                    data-sal="slide-up"
-                                    data-sal-duration="1500"
-                                    data-sal-delay="700"
-                                    data-sal-easing="ease">
-                                    <StaticImage 
-                                        src="../images/elasticbeanstalk.png"
-                                        alt="Docker Logo"
-                                        placeholder="blurred"
-                                        layout="fixed"
-                                        width={65}
-                                    />
-                                </div>
-                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
-                                    data-sal="slide-up"
-                                    data-sal-duration="1500"
-                                    data-sal-delay="800"
-                                    data-sal-easing="ease">
-                                    <StaticImage 
-                                        src="../images/s3buckets.png"
-                                        alt="Docker Logo"
-                                        placeholder="blurred"
-                                        layout="fixed"
-                                        width={75}
-                                    />
-                                </div>
+                                {
+                                    ubuntu.map((data, index) => {
+                                        return (
+                                            <TechonologyIcon
+                                                key={index + "_ubuntu" }
+                                                {...data}
+                                                index={index}
+                                            />
+                                        )
+                                    })
+                                }
                             </div>
                         </div>
 
@@ -328,32 +243,17 @@ const Index = ({ data }) => {
                         data-sal-easing="ease-out-back">
                         <div className="relative rounded-xl overflow-auto p-8">
                             <div className="flex justify-center space-x-4 font-mono text-white text-sm font-bold leading-6 rounded-lg">
-                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
-                                    data-sal="slide-up"
-                                    data-sal-duration="1500"
-                                    data-sal-delay="300"
-                                    data-sal-easing="ease">
-                                    <StaticImage
-                                        src="../images/mysql.png"
-                                        alt="MySQL Logo"
-                                        placeholder="blurred"
-                                        layout="fixed"
-                                        width={75}
-                                    />
-                                </div>
-                                <div className="w-20 h-20 rounded-lg flex items-center justify-center shadow-lg bg-white"
-                                    data-sal="slide-up"
-                                    data-sal-duration="1500"
-                                    data-sal-delay="400"
-                                    data-sal-easing="ease">
-                                    <StaticImage
-                                        src="../images/firebase.png"
-                                        alt="Firebase Logo"
-                                        placeholder="blurred"
-                                        layout="fixed"
-                                        width={60}
-                                    />
-                                </div>
+                                {
+                                    databases.map((data, index) => {
+                                        return (
+                                            <TechonologyIcon
+                                                key={index + "_databases" }
+                                                {...data}
+                                                index={index}
+                                            />
+                                        )
+                                    })
+                                }
                             </div>
                         </div>
 
