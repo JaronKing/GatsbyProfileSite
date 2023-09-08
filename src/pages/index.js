@@ -56,7 +56,7 @@ const Index = ({ data }) => {
                                     data-sal-duration="700"
                                     data-sal-delay={ index * 100 + 100 }
                                     data-sal-easing="ease-out-back">
-                                    <div className="relative flex flex-row">
+                                    <div className="relative flex flex-row resume-entry-company">
                                         <div className="absolute left-0 text-base" dangerouslySetInnerHTML={{__html: company}}></div>
                                         <div className="absolute right-0 text-base">
                                             { date }
