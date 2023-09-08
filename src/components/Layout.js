@@ -4,58 +4,26 @@ import Header from "./Header"
 import Footer from "./Footer"
 
 const Layout = ({ children }) => {
+    const numrows = 40;
+    const rows = [];
+    for (let i = 0; i < numrows; i++) {
+        rows.push(<li key={i} />);
+    }
     return (
         <div>
             <Header/>
-            <main className="flex p-6 min-h-screen
-                context">
-                { children }
-            </main>
-            <div className="area" >
-                <ul className="circles">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+            <main className="flex min-h-screen">
 
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-            </div >
+                <div className="context">
+                    { children }
+                </div>
+
+                <div className="area">
+                    <ul className="circles">
+                        { rows }
+                        </ul>
+                </div>
+            </main>
             <Footer/>
         </div>
 
