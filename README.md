@@ -7,7 +7,7 @@
 <h1 align="center">
     Resume Profile Site
 </h1>
-*
+
     A simple resume site that displays a resume, shows the technology icons referenced in the resume and contact buttons at the bottom to Linkedin and Github.  An exmaple can be found at the following domain.
 
     [www.jaronjking.com](https://www.jaronjking.com)
