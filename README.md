@@ -8,16 +8,16 @@
     Resume Profile Site
 </h1>
 
-    A simple resume site that displays a resume, shows the technology icons referenced in the resume and contact buttons at the bottom to Linkedin and Github.  An exmaple can be found at the following domain.
+A simple resume site that displays a resume, shows the technology icons referenced in the resume and contact buttons at the bottom to Linkedin and Github.  An exmaple can be found at the following domain.
 
-    [www.jaronjking.com](https://www.jaronjking.com)
+[www.jaronjking.com](https://www.jaronjking.com)
 
-    The site uses a Gatsby plugin for the scroll reveals.
+The site uses a Gatsby plugin for the scroll reveals.
     gatsby-plugin-scroll-reveal
 
-    And CSS for the bubble square to circle transformation found in the background.
+And CSS for the bubble square to circle transformation found in the background.
 
-    My goal was to learn more about GatsbyJs as a single page app development framework.  I was satisfied with the image progressive loading and get scores of above 95 on Googles Lighthouse tool.
+My goal was to learn more about GatsbyJs as a single page app development framework.  I was satisfied with the image progressive loading and get scores of above 95 on Googles Lighthouse tool.
 <h2 align="center">
   Gatsby Minimal Starter
 </h2>
